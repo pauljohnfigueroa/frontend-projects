@@ -1,0 +1,187 @@
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;700&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: fff;
+  font-family: "Plus Jakarta Sans", Helvetica, sans-serif;
+  overflow-x: hidden;
+}
+
+.courses {
+  background-image: linear-gradient(#FFFFFF, #f0f1ff);
+  margin-top: 185px;
+  padding-bottom: 100px;
+}
+.courses .courses-container {
+  width: 85vw;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.courses .courses-container .card {
+  background-color: #fff;
+  border-radius: 15px;
+  margin: 40px 15px;
+  width: 350px;
+  height: 346px;
+  padding: 0 30px;
+  position: relative;
+}
+.courses .courses-container .most-popular {
+  background-image: linear-gradient(#ff6f48, #f02aa6);
+}
+.courses .courses-container .most-popular p {
+  color: #fff;
+  font-size: 32px;
+  font-weight: 800;
+  line-height: 40px;
+}
+.courses .courses-container .icon-container {
+  position: absolute;
+  top: -28px;
+}
+.courses .courses-container h3 {
+  color: #13183f;
+  font-size: 24px;
+  font-weight: 800;
+  line-height: 30.24px;
+  margin-top: 67px;
+}
+.courses .courses-container p {
+  color: #83869a;
+  margin-top: 31px;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 28px;
+}
+.courses .courses-container .card-link {
+  position: absolute;
+  bottom: 20px;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 28px;
+}
+.courses .courses-container .card-link a {
+  color: #f74780;
+  text-decoration: none;
+}
+
+footer {
+  height: 120px;
+  background-color: #13183f;
+}
+footer .footer-container {
+  width: 80vw;
+  height: 120px;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+footer .footer-container .logo {
+  color: #fff;
+  font-size: 40px;
+  font-weight: bold;
+}
+footer .footer-container .button {
+  border-radius: 28px;
+  background-image: linear-gradient(#4851ff, #f02aa6);
+  color: #fff;
+  width: 167px;
+  height: 56px;
+  font-size: 18px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+footer .footer-container a {
+  text-decoration: none;
+  color: #fff;
+}
+
+@media screen and (min-width: 769px) {
+  header {
+    width: 80vw;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-between;
+    height: 80px;
+  }
+  header p {
+    color: #13183F;
+    font-size: 40px;
+    font-weight: bold;
+  }
+  header .button {
+    border-radius: 28px;
+    background-color: #13183f;
+    color: #fff;
+    width: 167px;
+    height: 56px;
+    font-size: 18px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  header a {
+    text-decoration: none;
+    color: #fff;
+  }
+  .hero {
+    width: 80vw;
+    margin: auto;
+    position: relative;
+  }
+  .hero .hero-left {
+    width: 457px;
+    margin-top: 203px;
+  }
+  .hero .hero-left h1 {
+    color: #13183f;
+    font-size: 56px;
+    font-weight: 800;
+    line-height: 70.56px;
+  }
+  .hero .hero-left p {
+    margin-top: 30px;
+    color: #83869A;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+  }
+  .hero .hero-left .button-pink-orange-gradient {
+    margin-top: 44px;
+    border-radius: 31.5px;
+    width: 167px;
+    height: 63px;
+    background-image: linear-gradient(#ff6f48, #f02aa6);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .hero .hero-left .button-pink-orange-gradient a {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 28px;
+    text-decoration: none;
+  }
+  .hero img {
+    position: absolute;
+    top: -410px;
+    right: -500px;
+    z-index: -1;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */
