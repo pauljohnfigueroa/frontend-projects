@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;700;800&display=swap");
 * {
   box-sizing: border-box;
   margin: 0;
@@ -29,9 +29,10 @@ header .button {
   border-radius: 28px;
   background-color: #13183f;
   color: #fff;
-  width: 167px;
-  height: 56px;
-  font-size: 18px;
+  width: 140px;
+  height: 48px;
+  font-size: 16px;
+  line-height: 26px;
   font-weight: bold;
   display: flex;
   align-items: center;
@@ -43,13 +44,13 @@ header a {
 }
 
 .hero {
-  width: 80vw;
+  width: 90vw;
   margin: auto;
   position: relative;
 }
 .hero .hero-left {
-  width: 457px;
-  margin-top: 203px;
+  width: 100%;
+  margin-top: 50px;
 }
 .hero .hero-left h1 {
   color: #13183f;
@@ -60,9 +61,9 @@ header a {
 .hero .hero-left p {
   margin-top: 30px;
   color: #83869A;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 500;
-  line-height: 28px;
+  line-height: 26px;
 }
 .hero .hero-left .button-pink-orange-gradient {
   margin-top: 44px;
@@ -76,25 +77,23 @@ header a {
 }
 .hero .hero-left .button-pink-orange-gradient a {
   color: #fff;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 700;
-  line-height: 28px;
+  line-height: 26px;
   text-decoration: none;
 }
-.hero img {
-  position: absolute;
-  top: 0;
-  right: 0;
-  z-index: 0;
+.hero .hero-image {
+  background-image: url("../images/image-hero-mobile.png");
+  height: 409px;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .courses {
   background-image: linear-gradient(#FFFFFF, #f0f1ff);
-  margin-top: 185px;
-  padding-bottom: 100px;
 }
 .courses .courses-container {
-  width: 85vw;
+  width: 98vw;
   margin: auto;
   display: flex;
   flex-wrap: wrap;
@@ -103,20 +102,21 @@ header a {
 .courses .courses-container .card {
   background-color: #fff;
   border-radius: 15px;
-  margin: 40px 15px;
-  width: 350px;
-  height: 346px;
+  margin: 30px 15px;
+  width: 100%;
+  min-height: 260px;
   padding: 0 30px;
   position: relative;
 }
 .courses .courses-container .most-popular {
   background-image: linear-gradient(#ff6f48, #f02aa6);
+  min-height: 120px;
 }
 .courses .courses-container .most-popular p {
   color: #fff;
-  font-size: 32px;
+  font-size: 24px;
   font-weight: 800;
-  line-height: 40px;
+  line-height: 32px;
 }
 .courses .courses-container .icon-container {
   position: absolute;
@@ -132,16 +132,15 @@ header a {
 .courses .courses-container p {
   color: #83869a;
   margin-top: 31px;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 500;
-  line-height: 28px;
+  line-height: 26px;
 }
 .courses .courses-container .card-link {
-  position: absolute;
-  bottom: 20px;
   font-size: 18px;
   font-weight: 800;
   line-height: 28px;
+  padding: 10px 0;
 }
 .courses .courses-container .card-link a {
   color: #f74780;
@@ -170,9 +169,10 @@ footer .footer-container .button {
   border-radius: 28px;
   background-image: linear-gradient(#4851ff, #f02aa6);
   color: #fff;
-  width: 167px;
-  height: 56px;
-  font-size: 18px;
+  width: 140px;
+  height: 48px;
+  font-size: 16px;
+  line-height: 28px;
   font-weight: bold;
   display: flex;
   align-items: center;
