@@ -11,6 +11,83 @@ body {
   overflow-x: hidden;
 }
 
+header {
+  width: 90vw;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: space-between;
+  height: 80px;
+}
+header p {
+  color: #13183F;
+  font-size: 40px;
+  font-weight: bold;
+}
+header .button {
+  border-radius: 28px;
+  background-color: #13183f;
+  color: #fff;
+  width: 167px;
+  height: 56px;
+  font-size: 18px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+header a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.hero {
+  width: 80vw;
+  margin: auto;
+  position: relative;
+}
+.hero .hero-left {
+  width: 457px;
+  margin-top: 203px;
+}
+.hero .hero-left h1 {
+  color: #13183f;
+  font-size: 40px;
+  font-weight: 800;
+  line-height: 50.4px;
+}
+.hero .hero-left p {
+  margin-top: 30px;
+  color: #83869A;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 28px;
+}
+.hero .hero-left .button-pink-orange-gradient {
+  margin-top: 44px;
+  border-radius: 31.5px;
+  width: 167px;
+  height: 63px;
+  background-image: linear-gradient(#ff6f48, #f02aa6);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.hero .hero-left .button-pink-orange-gradient a {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 28px;
+  text-decoration: none;
+}
+.hero img {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 0;
+}
+
 .courses {
   background-image: linear-gradient(#FFFFFF, #f0f1ff);
   margin-top: 185px;
