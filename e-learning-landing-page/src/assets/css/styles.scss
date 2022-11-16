@@ -12,6 +12,7 @@ body {
     overflow-x: hidden;
 }
 
+// Mobile
 
 // Header
 header {
@@ -231,9 +232,12 @@ footer {
 
 }
 
+// Tablet
 @media screen and (min-width: 376px) {
+
+    // Hero
     .hero {
-        position: relative;
+        //position: relative;
 
         .hero-left {
             width: 50%;
@@ -250,9 +254,11 @@ footer {
         }
     }
 
+    // Courses
     .courses {
         .courses-container {
-            border: 1px dashed red;
+            //width: 80vw;
+            //border: 1px dashed red;
             margin-top: 140px;
 
             .card {
@@ -266,4 +272,50 @@ footer {
 
 
     }
+}
+
+@media screen and (min-width: 769px) {
+    header {
+        width: 80vw;
+    }
+
+    .hero {
+        width: 80vw;
+
+        .hero-left {
+            width: 45%;
+            margin-top: 200px;
+
+            h1 {
+                font-size: 56px;
+                line-height: 71px;
+                font-weight: 800;
+            }
+
+            p {
+                font-size: 18px;
+                line-height: 28px;
+                font-weight: 500;
+            }
+        }
+
+        .hero-image {
+            background-image: url('../images/image-hero-desktop.png');
+            position: absolute;
+            min-height: 938px;
+            top: -115%;
+            left: 45%;
+        }
+    }
+
+    .courses {
+        width: 100vw;
+        margin-top: 140px;
+
+        .courses-container {
+            width: 100%;
+            padding-bottom: 80px;
+        }
+    }
+
 }
