@@ -231,102 +231,22 @@ footer {
 
 }
 
-@media screen and (min-width: 769px) {
-
-    // Header
-    header {
-        //border: 1px dashed red;
-        width: 80vw;
-        margin: auto;
-        display: flex;
-        flex-wrap: wrap;
-        align-content: center;
-        justify-content: space-between;
-        height: 80px;
-
-        p {
-            //border: 1px dashed red;
-            color: #13183F;
-            font-size: 40px;
-            font-weight: bold;
-        }
-
-        .button {
-            border-radius: 28px;
-            background-color: #13183f;
-            color: #fff;
-            width: 167px;
-            height: 56px;
-            font-size: 18px;
-            font-weight: bold;
-
-            // Align text in the middle, must be a flex container
-            display: flex;
-            align-items: center;
-            justify-content: center;
-        }
-
-        a {
-            text-decoration: none;
-            color: #fff;
-        }
-    }
-
-    // Hero
+@media screen and (min-width: 376px) {
     .hero {
-        //border: 1px dashed yellow;
-        width: 80vw;
-        margin: auto;
         position: relative;
 
         .hero-left {
-            //border: 1px dashed green;
-            width: 457px;
-            margin-top: 203px;
-
-            h1 {
-                color: #13183f;
-                font-size: 56px;
-                font-weight: 800;
-                line-height: 70.56px;
-            }
-
-            p {
-                margin-top: 30px;
-                color: #83869A;
-                font-size: 18px;
-                font-weight: 500;
-                line-height: 28px;
-            }
-
-            .button-pink-orange-gradient {
-                margin-top: 44px;
-                border-radius: 31.5px;
-                width: 167px;
-                height: 63px;
-                background-image: linear-gradient(#ff6f48, #f02aa6);
-
-                // Align text in the middle, must be a flex container
-                display: flex;
-                align-items: center;
-                justify-content: center;
-
-                a {
-                    color: #fff;
-                    font-size: 18px;
-                    font-weight: 700;
-                    line-height: 28px;
-                    text-decoration: none;
-                }
-            }
+            width: 50%;
         }
 
-        img {
+        .hero-image {
+            //border: 1px solid red;
+            background-image: url('../images/image-hero-tablet.png');
+            width: 100%; // set width when setting the position to absolute
+            //height: 723px;
             position: absolute;
-            top: -410px;
-            right: -500px;
-            z-index: -1;
+            top: 10px;
+            left: 50%;
         }
     }
-
 }
