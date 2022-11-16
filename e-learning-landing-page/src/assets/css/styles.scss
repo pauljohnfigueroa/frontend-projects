@@ -243,10 +243,27 @@ footer {
             //border: 1px solid red;
             background-image: url('../images/image-hero-tablet.png');
             width: 100%; // set width when setting the position to absolute
-            //height: 723px;
+            height: 723px;
             position: absolute;
-            top: 10px;
+            top: -70%;
             left: 50%;
         }
+    }
+
+    .courses {
+        .courses-container {
+            border: 1px dashed red;
+            margin-top: 140px;
+
+            .card {
+                width: 340px;
+            }
+
+            .most-popular {
+                width: 340px;
+            }
+        }
+
+
     }
 }
