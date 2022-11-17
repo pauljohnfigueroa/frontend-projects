@@ -90,7 +90,7 @@ header {
     }
 
     .form-container {
-        width: 90vw;
+        width: 80%;
         margin: auto;
 
         form {
@@ -126,6 +126,7 @@ header {
     }
 }
 
+/* Tablet */
 @media screen and (min-width: 376px) {
 
     body {
@@ -151,6 +152,54 @@ header {
             margin: 40px 0 0 40px;
         }
 
+    }
+
+    .hero {
+        background-color: #121725;
+        width: 635px;
+        height: 510px;
+        padding: 40px 0 0 20px;
+
+        .heading {
+            font-size: 48px;
+            line-height: 56px;
+            text-align: left;
+        }
+
+        .heading-1 {
+            font-size: 48px;
+        }
+
+        .heading-2 {
+            font-size: 48px;
+        }
+
+        .sub-text {
+            margin-left: 0;
+            text-align: left;
+            width: 60%;
+        }
+
+        .icons {
+
+            display: table-footer-group; // switch position with .form-container
+        }
+
+        .form-container {
+            width: 80%;
+            margin: auto;
+            display: table-header-group; // switch position with .icons
+
+            form {
+                display: flex;
+                flex-wrap: wrap;
+                margin-top: 40px;
+
+                input {}
+
+                button {}
+            }
+        }
     }
 
 
