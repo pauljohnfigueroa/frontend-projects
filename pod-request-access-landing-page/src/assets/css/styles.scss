@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Chivo:ital,wght@0,700;0,900;1,400;2,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chivo:ital,wght@0,300;0,700;0,900;1,400&display=swap');
 
 * {
     box-sizing: border-box;
@@ -7,8 +7,30 @@
 }
 
 body {
-    font-family: Chivo, sans-serif;
+    font-family: "Chivo", sans-serif;
+    //background-image: url('../../../dist/assets/images/mobile/image-host.jpg');
+}
+
+.bg-img {
+
     background-image: url('../../../dist/assets/images/mobile/image-host.jpg');
+    position: absolute;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    object-fit: contain;
+    z-index: -2;
+
+    .overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+        background-color: #121725;
+        opacity: .8;
+        z-index: -1;
+    }
 }
 
 header {
@@ -19,6 +41,7 @@ header {
         justify-content: center;
         margin-top: 80px;
     }
+
 }
 
 .hero {
@@ -29,7 +52,8 @@ header {
         color: #54e6af;
         text-transform: uppercase;
         text-align: center;
-        margin-top: 50px;
+        margin-top: 40px;
+        margin-bottom: 20px;
     }
 
     .heading-1 {
@@ -44,39 +68,42 @@ header {
     }
 
     .sub-text {
+        width: 80vw;
         color: #c2cbe5;
         font-size: 15px;
         line-height: 25px;
         text-align: center;
-        margin-top: 10px;
+        margin: auto;
     }
 
     .icons {
-        width: 90vw;
+        width: 80vw;
         margin: auto;
         display: flex;
         justify-content: space-between;
-        margin-top: 20px;
+        margin-top: 40px;
 
         img {
             width: auto;
-            height: 17px;
+            height: 15px;
         }
     }
 
     .form-container {
-        width: 80vw;
+        width: 90vw;
         margin: auto;
 
         form {
             display: flex;
             flex-wrap: wrap;
-            margin-top: 50px;
+            margin-top: 40px;
 
             input {
                 width: 100%;
                 background-color: #2C344B;
-                padding: 10px;
+                padding: 18px 24px;
+                color: #fff;
+                font-weight: 700;
                 margin: 10px;
                 border: none;
                 border-radius: 28px;
@@ -89,7 +116,7 @@ header {
                 color: #121725;
                 font-size: 14px;
                 font-weight: 700;
-                padding: 10px 0;
+                padding: 15px 0;
                 margin: 10px;
                 border: none;
                 border-radius: 28px;
@@ -97,4 +124,34 @@ header {
             }
         }
     }
+}
+
+@media screen and (min-width: 376px) {
+
+    body {
+        background-color: #121725;
+    }
+
+    .bg-img {
+
+        background-image: url('../../../dist/assets/images/tablet/image-host.jpg');
+        background-position: right;
+        background-repeat: no-repeat;
+
+        .overlay {
+            visibility: hidden;
+        }
+    }
+
+    header {
+
+        .logo {
+            //border: 1px dashed red;
+            justify-content: left;
+            margin: 40px 0 0 40px;
+        }
+
+    }
+
+
 }
