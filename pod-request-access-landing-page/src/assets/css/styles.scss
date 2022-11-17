@@ -8,7 +8,7 @@
 
 body {
     font-family: "Chivo", sans-serif;
-    //background-image: url('../../../dist/assets/images/mobile/image-host.jpg');
+    overflow-x: hidden;
 }
 
 .bg-img {
@@ -24,7 +24,6 @@ body {
     .overlay {
         position: absolute;
         top: 0;
-        left: 0;
         width: 100vw;
         height: 100vh;
         background-color: #121725;
@@ -76,16 +75,19 @@ header {
         margin: auto;
     }
 
-    .icons {
-        width: 80vw;
-        margin: auto;
-        display: flex;
-        justify-content: space-between;
-        margin-top: 40px;
+    .icons-container {
 
-        img {
-            width: auto;
-            height: 15px;
+        .icons {
+            width: 80vw;
+            margin: auto;
+            display: flex;
+            justify-content: space-between;
+            margin-top: 40px;
+
+            img {
+                width: auto;
+                height: 15px;
+            }
         }
     }
 
@@ -126,11 +128,16 @@ header {
     }
 }
 
+.bg-dot-pattern {
+    visibility: hidden;
+}
+
 /* Tablet */
 @media screen and (min-width: 376px) {
 
     body {
         background-color: #121725;
+
     }
 
     .bg-img {
@@ -156,8 +163,10 @@ header {
 
     .hero {
         background-color: #121725;
-        width: 635px;
+        min-width: 635px;
+        width: 90%;
         height: 510px;
+        margin-top: 100px;
         padding: 40px 0 0 20px;
 
         .heading {
@@ -175,32 +184,63 @@ header {
         }
 
         .sub-text {
+            font-size: 18px;
+            line-height: 28px;
             margin-left: 0;
             text-align: left;
-            width: 60%;
+            width: 72%;
         }
 
-        .icons {
+        .icons-container {
 
             display: table-footer-group; // switch position with .form-container
+
+            .icons {
+                display: flex;
+                flex-wrap: wrap;
+                padding: 0 60px 0 0;
+
+                img {
+                    width: auto;
+                    height: 20px;
+                }
+            }
         }
 
         .form-container {
-            width: 80%;
-            margin: auto;
             display: table-header-group; // switch position with .icons
 
             form {
+                width: 70%;
                 display: flex;
                 flex-wrap: wrap;
-                margin-top: 40px;
+                margin-top: 20px;
+                position: relative;
 
-                input {}
+                input {
+                    width: 100%;
+                    margin: 10px 0;
+                }
 
-                button {}
+                button {
+                    position: absolute;
+                    top: 15px;
+                    right: 5px;
+                    margin: 0;
+                    padding: 12px;
+                    width: 160px;
+                }
             }
         }
+
     }
 
-
+    .bg-dot-pattern {
+        visibility: visible;
+        background-image: url('../../../dist/assets/images/desktop/bg-pattern-dots.svg');
+        object-fit: contain;
+        background-repeat: no-repeat;
+        height: 100px;
+        margin: 100px 0 0 20px;
+    }
 }
