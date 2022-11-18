@@ -1,0 +1,216 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@400;500;900&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Red Hat Display", sans-serif;
+  overflow-x: hidden;
+}
+
+header {
+  margin-top: 48px;
+  display: flex;
+  justify-content: center;
+}
+
+.hero {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  position: relative;
+  margin-top: 50px;
+}
+.hero .hero-left {
+  position: absolute;
+  top: 0;
+  left: -30px;
+}
+.hero .hero-left img {
+  height: 153px;
+}
+.hero .hero-right {
+  position: absolute;
+  top: 0;
+  right: -30px;
+}
+.hero .hero-right img {
+  height: 153px;
+}
+.hero .hero-center {
+  text-align: center;
+  width: 100vw;
+  padding: 0 20px;
+  margin-top: 170px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.hero .hero-center .hero-heading {
+  color: #28283d;
+  font-size: 40px;
+  line-height: 44px;
+  font-weight: 900;
+}
+.hero .hero-center .hero-sub-heading {
+  color: #87879d;
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 400;
+  margin-top: 20px;
+}
+.hero .hero-center a {
+  color: white;
+  text-decoration: none;
+}
+.hero .hero-center a .download-button {
+  border: none;
+  border-radius: 30px;
+  background-color: #4d96a9;
+  width: 200px;
+  padding: 20px;
+  margin-top: 20px;
+  font-size: 16px;
+  font-weight: 900;
+  line-height: 26px;
+}
+.hero .hero-center a .download-button span {
+  color: #8fe3f9;
+}
+.hero .hero-center a .download-button:hover {
+  background-color: #71C0D4;
+}
+.hero .hero-center a .sub-button {
+  border: none;
+  border-radius: 30px;
+  background-color: #855fb1;
+  width: 150px;
+  padding: 20px;
+  margin-top: 20px;
+  font-size: 16px;
+  font-weight: 900;
+  line-height: 26px;
+}
+.hero .hero-center a .sub-button:hover {
+  background-color: #B18BDD;
+}
+
+.section-one {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.section-one .connector {
+  margin-top: 50px;
+}
+.section-one .photo-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 50px;
+}
+.section-one .photo-gallery img {
+  border-radius: 24px;
+  width: 150px;
+  height: auto;
+  margin: 2%;
+}
+.section-one .overline-text {
+  text-transform: uppercase;
+  color: #4d96a9;
+  font-size: 16px;
+  font-weight: 900;
+  margin-top: 40px;
+  padding: 0 20px;
+}
+.section-one .heading {
+  font-size: 32px;
+  font-weight: 900;
+  line-height: 36px;
+  margin-top: 20px;
+  padding: 0 20px;
+}
+.section-one .sub-text {
+  color: #87879d;
+  font-size: 16px;
+  font-weight: 500;
+  margin-top: 20px;
+  padding: 0 20px;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  min-height: 428px;
+  margin-top: 180px;
+  position: relative;
+}
+.footer .connector {
+  position: absolute;
+  top: -115px;
+}
+.footer .heading {
+  color: #fafafa;
+  font-size: 32px;
+  font-weight: 900;
+  line-height: 36px;
+  margin-top: 100px;
+}
+.footer .sub-text {
+  color: #fafafa;
+  font-size: 16px;
+  font-weight: 500;
+  margin-top: 40px;
+}
+.footer a {
+  color: #fff;
+  text-decoration: none;
+}
+.footer a .sub-button {
+  border: none;
+  border-radius: 30px;
+  background-color: #855fb1;
+  width: 195px;
+  padding: 20px;
+  margin-top: 20px;
+  font-size: 16px;
+  font-weight: 900;
+  line-height: 26px;
+  margin-top: 40px;
+}
+.footer a .sub-button:hover {
+  background-color: #B18BDD;
+}
+.footer .footer-bg {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  bottom: 0;
+}
+.footer .footer-bg img {
+  position: absolute;
+  bottom: 0;
+  object-fit: contain;
+  width: 375px;
+  min-height: 428px;
+  background-position-x: center;
+  border: 1px dashed red;
+  z-index: -2;
+}
+.footer .footer-bg .overlay {
+  background-color: #4d96a9;
+  position: absolute;
+  bottom: 0;
+  width: 100vw;
+  min-height: 428px;
+  opacity: 0.7;
+  z-index: -1;
+}
+
+/*# sourceMappingURL=styles.css.map */
