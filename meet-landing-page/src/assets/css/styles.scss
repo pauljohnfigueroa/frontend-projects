@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@400;500;900&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Red Hat Display", sans-serif;
+    overflow-x: hidden;
+}
+
+// Mobile
+header {
+    //border: 1px dashed red;
+    margin-top: 48px;
+    display: flex;
+    justify-content: center;
+}
+
+.hero {
+    //border: 1px dashed red;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    position: relative;
+    margin-top: 50px;
+
+    .hero-left {
+        position: absolute;
+        top: 0;
+        left: -30px;
+
+        img {
+            height: 153px;
+        }
+    }
+
+    .hero-right {
+        position: absolute;
+        top: 0;
+        right: -30px;
+
+        img {
+            height: 153px;
+        }
+    }
+
+    .hero-center {
+        text-align: center;
+        margin-top: 170px;
+        width: 90vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        .hero-heading {
+            color: #28283d;
+            font-size: 40px;
+            line-height: 44px;
+            font-weight: 900;
+        }
+
+        .hero-sub-heading {
+            color: #87879d;
+            font-size: 16px;
+            line-height: 26px;
+            font-weight: 400;
+            margin-top: 20px;
+        }
+
+        a {
+            color: white;
+            text-decoration: none;
+
+            .download-button {
+                border: none;
+                border-radius: 30px;
+                background-color: #4d96a9;
+                width: 200px;
+                padding: 20px;
+                margin-top: 20px;
+                font-size: 16px;
+                font-weight: 900;
+                line-height: 26px;
+
+            }
+
+            .sub-button {
+                border: none;
+                border-radius: 30px;
+                background-color: #855fb1;
+                width: 150px;
+                padding: 20px;
+                margin-top: 20px;
+                font-size: 16px;
+                font-weight: 900;
+                line-height: 26px;
+            }
+        }
+    }
+}
+
+.section-one {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+    .connector {
+        margin-top: 50px;
+    }
+
+    .photo-gallery {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+
+        img {
+            border-radius: 24px;
+            width: 150px;
+            height: auto;
+            margin: 2%;
+        }
+    }
+
+    .overline-text {
+        text-transform: uppercase;
+        color: #4d96a9;
+        font-size: 16px;
+        font-weight: 900;
+        margin-top: 40px;
+    }
+
+    .heading {
+        font-size: 32px;
+        font-weight: 900;
+        line-height: 36px;
+        margin-top: 20px;
+    }
+
+    .sub-text {
+        color: #87879d;
+        font-size: 16px;
+        font-weight: 500;
+        margin-top: 20px;
+    }
+
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 80px;
+    position: relative;
+
+    .connector {
+        margin-top: 50px;
+        position: absolute;
+        top: -180px;
+    }
+
+    .footer-bg {
+        background-image: url('../../../dist/assets/images/mobile/image-footer.jpg');
+        width: 100vw;
+        min-height: 428px;
+        background-position-x: center; // display the center part of the image
+        border: 1px dashed red;
+        z-index: -2;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        .heading {
+            color: #fafafa;
+            font-size: 32px;
+            font-weight: 900;
+            line-height: 36px;
+            margin-top: 100px;
+        }
+
+        .sub-text {
+            color: #fafafa;
+            font-size: 16px;
+            font-weight: 500;
+            margin-top: 30px;
+        }
+
+        a {
+            color: #fff;
+            text-decoration: none;
+
+            .sub-button {
+                border: none;
+                border-radius: 30px;
+                background-color: #855fb1;
+                width: 195px;
+                padding: 20px;
+                margin-top: 20px;
+                font-size: 16px;
+                font-weight: 900;
+                line-height: 26px;
+                margin-top: 30px;
+            }
+        }
+
+        .overlay {
+            background-color: #4d96a9;
+            position: absolute;
+            bottom: 0;
+            width: 100vw;
+            min-height: 428px;
+            opacity: .7;
+            z-index: -1;
+        }
+    }
+}
+
+// Tablet
+
+
+
+
+// Desktop
