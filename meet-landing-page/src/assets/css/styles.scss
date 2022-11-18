@@ -84,6 +84,14 @@ header {
                 font-weight: 900;
                 line-height: 26px;
 
+                span {
+                    color: #8fe3f9;
+                }
+
+            }
+
+            .download-button:hover {
+                background-color: #71C0D4;
             }
 
             .sub-button {
@@ -97,7 +105,14 @@ header {
                 font-weight: 900;
                 line-height: 26px;
             }
+
+            .sub-button:hover {
+                background-color: #B18BDD;
+            }
         }
+
+
+
     }
 }
 
@@ -195,6 +210,10 @@ header {
             font-weight: 900;
             line-height: 26px;
             margin-top: 40px;
+        }
+
+        .sub-button:hover {
+            background-color: #B18BDD;
         }
     }
 
