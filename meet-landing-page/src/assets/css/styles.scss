@@ -283,17 +283,24 @@ header {
         }
 
         .hero-tablet {
-
             visibility: visible;
             width: 100%;
+            height: auto;
             text-align: center;
+
+            img {
+                width: 100%;
+                max-width: 820px;
+                height: auto;
+                max-height: 303px;
+            }
         }
 
         .hero-center {
+            margin-top: 40px;
 
             .hero-heading {
-                border: 1px dashed red;
-                margin-top: 200px;
+                //margin-top: 200px;
                 font-size: 48px;
                 line-height: 48px;
                 max-width: 350px;
