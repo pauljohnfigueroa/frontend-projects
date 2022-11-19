@@ -418,6 +418,112 @@ header {
 
 }
 
-
-
 // Desktop
+@media screen and (min-width: 769px) {
+
+    .hero {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        margin-top: 50px;
+        position: relative;
+        width: 100vw;
+
+        .hero-left {
+            visibility: visible;
+            position: absolute;
+            top: 0;
+            left: -33px;
+
+            img {
+                height: 303px;
+            }
+        }
+
+        .hero-right {
+            visibility: visible;
+            position: absolute;
+            top: 60px;
+            right: 380px;
+
+            img {
+                height: 303px;
+            }
+        }
+
+        .hero-tablet {
+            height: 0;
+            width: 0;
+            visibility: visible;
+        }
+
+        .hero-center {
+            width: 540px;
+            margin: auto;
+
+            .hero-heading {
+                font-size: 64px;
+                line-height: 64px;
+                max-width: 85%;
+                margin-top: 40px;
+            }
+
+            .hero-sub-heading {
+                max-width: 100%;
+            }
+
+            .hero-buttons {
+
+
+                a {
+                    font-size: 16px;
+
+                    .download-button {
+                        padding: 15px;
+                    }
+
+                    .sub-button {
+                        padding: 15px;
+                    }
+                }
+            }
+
+
+        }
+    }
+
+    .section-one {
+        .photo-gallery {
+
+            img {
+                width: 255px;
+                height: auto;
+                margin: 15px;
+            }
+        }
+
+        .section-texts {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            //.overline-text {}
+
+            .heading {
+                text-align: center;
+                font-size: 40px;
+                width: 60%;
+            }
+
+            .sub-text {
+
+                color: #87879d;
+                font-size: 16px;
+                margin-top: 20px;
+                padding: 0 20px;
+                width: 80%;
+            }
+        }
+    }
+
+}
