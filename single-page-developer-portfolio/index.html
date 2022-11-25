@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <link rel="icon" type="image/png" sizes="32x32" href="./serc/assets/images/favicon-32x32.png">
-  <link rel="stylesheet" href="src/assets/css/styles.scss">
+  <link rel="stylesheet" href="dist/assets/css/styles.css">
 
   <title>Paul Figueroa | Single-page Developer Portfolio</title>
 
@@ -16,96 +16,199 @@
 
   <header>
     <!-- Header -->
-    <p class="text-logo">Adam Solderg</p>
-
+    <p class="text-logo">paulfigueroa</p>
+    <div class="social-icons">
+      <img src="./dist/assets/images/icon-github.svg" alt="Github">
+      <img src="./dist/assets/images/icon-frontend-mentor.svg" alt="Front end mentor">
+      <img src="./dist/assets/images/icon-linkedin.svg" alt="Linkedin">
+      <img src="./dist/assets/images/icon-twitter.svg" alt="Twitter">
+    </div>
   </header>
+
   <section>
     <!-- Hero -->
+    <div class="hero">
+      <div class="profile-picture">
+        <img src="./dist/assets/images/image-profile-mobile.webp" alt="Profile picture" />
+      </div>
+      <div class="pattern-rings">
+        <img src="./dist/assets/images/pattern-rings.svg" alt="Pattern Rings" />
+      </div>
+      <div class="pattern-circle">
+        <img src="./dist/assets/images/pattern-circle.svg" alt="Pattern Circle" />
+      </div>
+      <div class="hero-texts">
+        <h1 class="hero-heading">Nice to meet you! I'm <span class="hero-name">Paul Figueroa</span>.</h1>
+        <p class="hero-sub-texts">I'm a front-end developer passionate about building accessible web apps that users
+          love.
+        </p>
+        <div class="hero-button">
+          <a href="#">Contact Me</a>
+        </div>
+      </div>
+    </div>
+
   </section>
+
   <section>
     <!-- Skills -->
+    <div>
+      <h2>HTML</h2>
+      <p>4 Years Experience</p>
+    </div>
+    <div>
+      <h2>CSS</h2>
+      <p>4 Years Experience</p>
+    </div>
+    <div>
+      <h2>JavaScript</h2>
+      <p>4 Years Experience</p>
+    </div>
+    <div>
+      <h2>Accessibility</h2>
+      <p>4 Years Experience</p>
+    </div>
+    <div>
+      <h2>React</h2>
+      <p>3 Years Experience</p>
+    </div>
+    <div>
+      <h2>Sass</h2>
+      <p>3 Years Experience</p>
+    </div>
+    <div>
+      <img src="./dist/assets/images/pattern-rings.svg" alt="">
+    </div>
   </section>
-  <secition>
+
+  <section>
     <!-- Portfolio -->
-  </secition>
+    <div>
+      <div>
+        <h2>Projects</h2>
+
+      </div>
+      <div>
+        <a href="#">Contact Me</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <div>
+        <img src="./dist/assets/images/thumbnail-project-1-small.webp" alt="">
+      </div>
+      <p>Design Portfolio</p>
+      <div>
+        <p>HTML</p>
+        <p>CSS</p>
+      </div>
+      <div>
+        <a href="#">View Project</a>
+        <a href="#">View Code</a>
+      </div>
+    </div>
+    <div class="card">
+      <div>
+        <img src="./dist/assets/images/thumbnail-project-2-small.webp" alt="">
+      </div>
+      <p>E-Learning Landing Page</p>
+      <div>
+        <p>HTML</p>
+        <p>CSS</p>
+      </div>
+      <div>
+        <a href="#">View Project</a>
+        <a href="#">View Code</a>
+      </div>
+    </div>
+    <div class="card">
+      <div>
+        <img src="./dist/assets/images/thumbnail-project-3-small.webp" alt="">
+      </div>
+      <p>Todo Web App</p>
+      <div>
+        <p>HTML</p>
+        <p>CSS</p>
+      </div>
+      <div>
+        <a href="#">View Project</a>
+        <a href="#">View Code</a>
+      </div>
+    </div>
+    <div class="card">
+      <div>
+        <img src="./dist/assets/images/thumbnail-project-4-small.webp" alt="">
+      </div>
+      <p>Entertainment Web App</p>
+      <div>
+        <p>HTML</p>
+        <p>CSS</p>
+      </div>
+      <div>
+        <a href="#">View Project</a>
+        <a href="#">View Code</a>
+      </div>
+    </div>
+    <div class="card">
+      <div>
+        <img src="./dist/assets/images/thumbnail-project-5-small.webp" alt="">
+      </div>
+      <p>Memory Game</p>
+      <div>
+        <p>HTML</p>
+        <p>CSS</p>
+      </div>
+      <div>
+        <a href="#">View Project</a>
+        <a href="#">View Code</a>
+      </div>
+    </div>
+    <div class="card">
+      <div>
+        <img src="./dist/assets/images/thumbnail-project-6-small.webp" alt="">
+      </div>
+      <p>Art Gallery Showcase</p>
+      <div>
+        <p>HTML</p>
+        <p>CSS</p>
+      </div>
+      <div>
+        <a href="#">View Project</a>
+        <a href="#">View Code</a>
+      </div>
+    </div>
+  </section>
+
   <footer>
     <!-- Footer -->
+    <h2>Contact</h2>
+    <p> I would love to hear about your project and how I could help. Please
+      fill in the form, and I’ll get back to you as soon as possible.</p>
+    <form action="#">
+      <div>
+        <label for="name">Name</label>
+        <input type="text" name="name">
+      </div>
+      <div>
+        <label for="email">Email</label>
+        <input type="email" name="email">
+      </div>
+      <div>
+        <label for="message">Message</label>
+        <textarea name="message" rows="10" cols="30">
+          </textarea>
+      </div>
+      <button type="submit">Send Message</button>
+    </form>
+
+    <p class="text-logo">Adam Solderg</p>
+    <div class="social-icons">
+      <img src="./dist/assets/images/icon-frontend-mentor.svg" alt="Front end mentor">
+      <img src="./dist/assets/images/icon-github.svg" alt="Github">
+      <img src="./dist/assets/images/icon-linkedin.svg" alt="Linkedin">
+      <img src="./dist/assets/images/icon-twitter.svg" alt="Twitter">
+    </div>
   </footer>
-
-
-  adamkeyes
-
-  Nice to meet you! I'm Adam Keyes.
-
-  Based in the UK, I'm a front-end developer passionate about
-  building accessible web apps that users love.
-
-  Contact me
-
-  HTML
-  4 Years Experience
-
-  CSS
-  4 Years Experience
-
-  JavaScript
-  4 Years Experience
-
-  Accessibility
-  4 Years Experience
-
-  React
-  3 Years Experience
-
-  Sass
-  3 Years Experience
-
-  Projects
-
-  Contact me
-
-  Design portfolio
-  HTML CSS
-  View project
-  View code
-
-  E-learning landing page
-  HTML CSS
-  View project
-  View code
-
-  Todo web app
-  HTML CSS JavaScript
-  View project
-  View code
-
-  Entertainment web app
-  HTML CSS JavaScript
-  View project
-  View code
-
-  Memory Game
-  HTML CSS JavaScript
-  View project
-  View code
-
-  Art gallery showcase
-  HTML CSS JavaScript
-  View project
-  View code
-
-  Contact
-
-  I would love to hear about your project and how I could help. Please
-  fill in the form, and I’ll get back to you as soon as possible.
-
-  Name
-  Email
-  Message
-
-  Send message
-
-  adamkeyes
 
 </body>
 
