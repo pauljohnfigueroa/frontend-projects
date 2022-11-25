@@ -213,33 +213,44 @@
 
   <footer>
     <!-- Footer -->
-    <h2>Contact</h2>
-    <p> I would love to hear about your project and how I could help. Please
+    <h2 class="footer-header">Contact</h2>
+    <p class="footer-sub-text"> I would love to hear about your project and how I could help. Please
       fill in the form, and I’ll get back to you as soon as possible.</p>
     <form action="#">
-      <div>
+      <div class="form-row">
         <label for="name">Name</label>
         <input type="text" name="name">
       </div>
-      <div>
+      <div class="form-row">
         <label for="email">Email</label>
         <input type="email" name="email">
       </div>
-      <div>
+      <div class="form-row">
         <label for="message">Message</label>
-        <textarea name="message" rows="10" cols="30">
+        <textarea name="message" rows="5" cols="30">
           </textarea>
+      </div class="form-row">
+      <div class="form-button">
+        <button type="submit">Send Message</button>
       </div>
-      <button type="submit">Send Message</button>
     </form>
 
-    <p class="text-logo">Adam Solderg</p>
-    <div class="social-icons">
-      <img src="./dist/assets/images/icon-frontend-mentor.svg" alt="Front end mentor">
-      <img src="./dist/assets/images/icon-github.svg" alt="Github">
-      <img src="./dist/assets/images/icon-linkedin.svg" alt="Linkedin">
-      <img src="./dist/assets/images/icon-twitter.svg" alt="Twitter">
+    <div class="footer-rings">
+      <img src="./dist/assets/images/pattern-rings.svg" alt="">
     </div>
+
+    <hr />
+
+    <div class="footer-social">
+      <p class="text-logo">Paul Figueroa</p>
+      <div class="social-icons">
+        <img src="./dist/assets/images/icon-frontend-mentor.svg" alt="Front end mentor">
+        <img src="./dist/assets/images/icon-github.svg" alt="Github">
+        <img src="./dist/assets/images/icon-linkedin.svg" alt="Linkedin">
+        <img src="./dist/assets/images/icon-twitter.svg" alt="Twitter">
+      </div>
+    </div>
+
   </footer>
 
 </body>

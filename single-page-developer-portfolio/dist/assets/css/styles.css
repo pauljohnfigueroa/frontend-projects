@@ -199,4 +199,101 @@ hr {
   letter-spacing: 2.2px;
 }
 
+footer {
+  background-color: #242424;
+  padding-top: 50px;
+  padding-bottom: 20px;
+  margin-top: 50px;
+  align-items: center;
+  position: relative;
+}
+footer .footer-header {
+  font-size: 40px;
+  line-height: 40px;
+  text-align: center;
+}
+footer .footer-sub-text {
+  font-size: 16px;
+  line-height: 26px;
+  width: 100%;
+  text-align: center;
+  padding: 0 5%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+footer form {
+  width: 96%;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  padding-bottom: 80px;
+}
+footer form .form-row {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  width: 100%;
+}
+footer form label {
+  font-size: 16px;
+  line-height: 26px;
+  margin-left: 30px;
+  text-transform: uppercase;
+}
+footer form input {
+  background: transparent;
+  color: #fff;
+  border: none;
+  border-bottom: 1px solid #979797;
+  height: 40px;
+  padding: 0 10px;
+}
+footer form textarea {
+  background: transparent;
+  color: #fff;
+  border: none;
+  border-bottom: 1px solid #979797;
+  padding: 10px;
+  resize: none;
+}
+footer form .form-button {
+  text-align: right;
+}
+footer form .form-button button {
+  width: 40%;
+  text-transform: uppercase;
+  padding-bottom: 10px;
+  color: #fff;
+  border: none;
+  border-bottom: 2px solid #4ee1a0;
+  background: transparent;
+  margin-top: 20px;
+  cursor: pointer;
+}
+footer form .form-button button:hover {
+  color: #4ee1a0;
+  border-bottom: 2px solid #fff;
+}
+footer .footer-rings {
+  position: absolute;
+  top: 480px;
+  left: -360px;
+}
+footer .footer-social {
+  text-align: center;
+  margin-top: 50px;
+}
+footer .footer-social .text-logo {
+  color: #fff;
+  font-size: 24px;
+  line-height: 32px;
+  font-weight: 700;
+}
+footer .footer-social .social-icons {
+  margin-top: 30px;
+}
+footer .footer-social .social-icons img {
+  padding: 0 12px;
+}
+
 /*# sourceMappingURL=styles.css.map */
