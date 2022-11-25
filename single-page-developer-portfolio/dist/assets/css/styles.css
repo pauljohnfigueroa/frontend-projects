@@ -103,7 +103,7 @@ hr {
 .skills {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  justify-content: center;
   position: relative;
   margin-bottom: 40px;
 }
@@ -124,6 +124,79 @@ hr {
   position: absolute;
   right: -90%;
   bottom: -110px;
+}
+
+.projects {
+  margin-top: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.projects .projects-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 90vw;
+  margin-bottom: 30px;
+}
+.projects .projects-header .projects-heading {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 40px;
+}
+.projects .projects-header .projects-link {
+  text-transform: uppercase;
+  padding-bottom: 10px;
+  border-bottom: 2px solid #4ee1a0;
+}
+.projects .projects-header .projects-link a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 26px;
+  letter-spacing: 2.2px;
+}
+.projects .card {
+  width: 90vw;
+}
+.projects .card img {
+  width: 100%;
+}
+.projects .card .projects-title {
+  text-transform: uppercase;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32px;
+  margin-top: 20px;
+}
+.projects .card .projects-tech {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 10px;
+}
+.projects .card .projects-tech .projects-tech-item {
+  margin-right: 10px;
+}
+.projects .card .projects-links {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+.projects .card .projects-links .projects-links-item {
+  text-transform: uppercase;
+  padding-bottom: 10px;
+  border-bottom: 2px solid #4ee1a0;
+  margin-right: 25px;
+}
+.projects .card .projects-links .projects-links-item a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 26px;
+  letter-spacing: 2.2px;
 }
 
 /*# sourceMappingURL=styles.css.map */

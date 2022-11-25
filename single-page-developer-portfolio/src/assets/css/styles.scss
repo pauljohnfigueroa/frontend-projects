@@ -115,13 +115,12 @@ header {
 hr {
     width: 90vw;
     margin: auto;
-
 }
 
 .skills {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    justify-content: center;
     position: relative;
     margin-bottom: 40px; // push <hr> down
 
@@ -148,6 +147,97 @@ hr {
         bottom: -110px;
     }
 }
+
+.projects {
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .projects-header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 90vw;
+        margin-bottom: 30px;
+        // border: 1px dashed red;
+
+        .projects-heading {
+            font-size: 30px;
+            font-weight: 700;
+            line-height: 40px;
+        }
+
+        .projects-link {
+
+            text-transform: uppercase;
+            padding-bottom: 10px;
+            border-bottom: 2px solid #4ee1a0;
+
+            a {
+                color: #fff;
+                text-decoration: none;
+                font-size: 16px;
+                font-weight: 700;
+                line-height: 26px;
+                letter-spacing: 2.2px;
+            }
+
+        }
+    }
+
+    .card {
+        width: 90vw;
+
+        img {
+            width: 100%;
+        }
+
+        .projects-title {
+            text-transform: uppercase;
+            font-size: 24px;
+            font-weight: 700;
+            line-height: 32px;
+            margin-top: 20px;
+        }
+
+        .projects-tech {
+            display: flex;
+            flex-wrap: wrap;
+            margin-top: 10px;
+
+            .projects-tech-item {
+                margin-right: 10px;
+            }
+        }
+
+        .projects-links {
+            display: flex;
+            flex-wrap: wrap;
+            margin-top: 30px;
+            margin-bottom: 40px;
+
+            .projects-links-item {
+                text-transform: uppercase;
+                padding-bottom: 10px;
+                border-bottom: 2px solid #4ee1a0;
+                margin-right: 25px;
+
+                a {
+                    color: #fff;
+                    text-decoration: none;
+                    font-size: 16px;
+                    font-weight: 700;
+                    line-height: 26px;
+                    letter-spacing: 2.2px;
+                }
+            }
+        }
+
+    }
+}
+
+
 
 //Tablet
 
