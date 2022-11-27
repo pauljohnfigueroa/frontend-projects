@@ -513,8 +513,8 @@ footer .footer-social .social-icons img {
   }
   .hero .pattern-circle {
     top: unset;
-    bottom: 0;
-    right: 33%;
+    bottom: -70px;
+    right: 35.5%;
   }
   .hero .hero-texts {
     margin-top: 80px;
@@ -621,6 +621,16 @@ footer .footer-social .social-icons img {
 }
 .visible {
   visibility: visible;
+}
+
+.invalid {
+  border-bottom-color: red;
+}
+
+.error-message {
+  visibility: hidden;
+  height: 0;
+  color: red;
 }
 
 /*# sourceMappingURL=bundle.css.map */

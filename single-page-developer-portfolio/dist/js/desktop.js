@@ -1,3 +1,4 @@
+// Projects card overlay
 const projCard = document.querySelectorAll('.card');
 
 projCard.forEach((projCard) => {
@@ -24,3 +25,35 @@ projCard.forEach((projCard) => {
     });
 
 });
+
+// Form Validation
+const form = document.forms.contactForm;
+const formName = form.name;
+
+formName.addEventListener('blur', () => {
+    console.log(formName.value);
+    const error = document.querySelector('.name-error-message');
+
+    if (formName.value === "") {
+        error.setAttribute('style', 'visibility: hidden;');
+    }
+
+    if (!formName.value.match(/^[0-9]+$/) && formName.value != "") {
+        error.setAttribute('style', 'visibility: visible;');
+    }
+});
+
+const email = form.email;
+email.addEventListener('blur', () => {
+    console.log(form.email.value);
+    const error = document.querySelector('.email-error-message');
+
+    if (email.value === "") {
+        error.setAttribute('style', 'visibility: hidden;');
+    }
+
+    if (!email.value.includes('@') && email.value != "") {
+        error.setAttribute('style', 'visibility: visible;');
+    }
+});
+

@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./serc/assets/images/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="./dist/assets/images/favicon-32x32.png">
   <link rel="stylesheet" href="dist/assets/css/bundle.css">
 
   <title>Paul Figueroa | Single-page Developer Portfolio</title>
@@ -234,15 +234,17 @@
           fill in the form, and I’ll get back to you as soon as possible.</p>
       </div>
 
-      <form action="#">
+      <form name="contactForm" action="#">
         <div class="form-row">
           <label for="name">Name</label>
           <input type="text" name="name">
         </div>
+        <div class="name-error-message"></div>
         <div class="form-row">
           <label for="email">Email</label>
-          <input type="email" name="email">
+          <input type="email" name="email" required>
         </div>
+        <div class="error-message email-error-message">Sorry, invalid format here.</div>
         <div class="form-row">
           <label for="message">Message</label>
           <textarea name="message" rows="5" cols="30">
