@@ -630,7 +630,9 @@ footer .footer-social .social-icons img {
 .error-message {
   visibility: hidden;
   height: 0;
+  font-size: 12px;
   color: red;
+  text-align: right;
 }
 
 /*# sourceMappingURL=bundle.css.map */
