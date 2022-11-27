@@ -1,0 +1,143 @@
+@media screen and (min-width: 769px) {
+
+    // header {} // no changes
+
+    .hero {
+        display: unset;
+        flex-direction: unset;
+        align-items: unset;
+        margin-bottom: 100px; // push <hr> down
+
+        .profile-picture-sm {
+            visibility: hidden;
+            height: 0;
+        }
+
+        .profile-picture-md {
+            visibility: hidden;
+            height: 0;
+        }
+
+        .profile-picture-lg {
+            visibility: visible;
+            height: auto;
+            position: absolute;
+            top: 0;
+            right: 5vw;
+            z-index: -1;
+
+            img {
+                width: 445px;
+                height: auto;
+            }
+        }
+
+        .pattern-rings {
+            left: -80px;
+        }
+
+        .pattern-circle {
+            top: unset;
+            bottom: 0;
+            right: 33%;
+        }
+
+        .hero-texts {
+            margin-top: 80px;
+            margin-bottom: 280px; // push <hr> down
+
+            .hero-heading {
+                font-size: 88px;
+                font-weight: 700;
+                line-height: 82px;
+                margin-top: 30px;
+            }
+
+            .hero-sub-texts {
+                font-size: 18px;
+                line-height: 28px;
+                margin-top: 50px;
+                max-width: 40%;
+            }
+
+            .hero-button {
+                margin-top: 60px;
+            }
+        }
+    }
+
+    .skills {
+        text-align: left;
+        margin-top: 40px;
+
+        .skills-item {
+
+            width: 32%;
+        }
+    }
+
+    // .projects () // no change
+
+    footer {
+        display: flex;
+        flex-direction: column;
+
+        .footer-group-1 {
+            display: flex;
+
+            .footer-texts {
+                margin-left: 5vw;
+
+                .footer-header {
+                    width: 70%;
+                    font-size: 72px;
+                    line-height: 82px;
+                    text-align: left;
+                }
+
+                .footer-sub-text {
+                    width: 60%;
+                    font-size: 18px;
+                    line-height: 28px;
+                    text-align: left;
+                    padding: 0;
+                }
+            }
+
+            form {
+                width: 60%;
+                margin-right: 5vw;
+
+                .form-button {
+                    button {
+                        width: 110px;
+                        margin-top: 40px;
+                    }
+
+                }
+            }
+        }
+
+        .footer-rings {
+            position: absolute;
+            top: 300px;
+            left: -180px;
+        }
+
+        .footer-group-2 {
+            display: flex;
+            flex-direction: column;
+
+            .footer-social {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+
+                .social-icons {
+                    margin-top: 0;
+                }
+            }
+        }
+
+    }
+}

@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <link rel="icon" type="image/png" sizes="32x32" href="./serc/assets/images/favicon-32x32.png">
-  <link rel="stylesheet" href="dist/assets/css/styles.css">
+  <link rel="stylesheet" href="dist/assets/css/bundle.css">
 
   <title>Paul Figueroa | Single-page Developer Portfolio</title>
 
@@ -28,15 +28,24 @@
   <section class="hero">
     <!-- Hero -->
 
-    <div class="profile-picture">
+    <div class="profile-picture-sm">
       <img src="./dist/assets/images/image-profile-mobile.webp" alt="Profile picture" />
+    </div>
+    <div class="profile-picture-md">
+      <img src="./dist/assets/images/image-profile-tablet.webp" alt="Profile picture" />
+    </div>
+
+    <div class="profile-picture-lg">
+      <img src="./dist/assets/images/image-profile-desktop.webp" alt="Profile picture" />
     </div>
     <div class="pattern-rings">
       <img src="./dist/assets/images/pattern-rings.svg" alt="Pattern Rings" />
     </div>
+
     <div class="pattern-circle">
       <img src="./dist/assets/images/pattern-circle.svg" alt="Pattern Circle" />
     </div>
+
     <div class="hero-texts">
       <h1 class="hero-heading">Nice to meet you! I'm <span class="hero-name">Paul Figueroa</span>.</h1>
       <p class="hero-sub-texts">I'm a front-end developer passionate about building accessible web apps that users
@@ -46,7 +55,6 @@
         <a href="#">Contact Me</a>
       </div>
     </div>
-
   </section>
 
   <hr />
@@ -82,9 +90,8 @@
     </div>
   </section>
 
-  <hr />
-
   <section class="projects">
+    <hr class="hr-projects" />
     <!-- Portfolio -->
     <div class="projects-header">
       <div class="projects-heading">
@@ -213,41 +220,49 @@
 
   <footer>
     <!-- Footer -->
-    <h2 class="footer-header">Contact</h2>
-    <p class="footer-sub-text"> I would love to hear about your project and how I could help. Please
-      fill in the form, and I’ll get back to you as soon as possible.</p>
-    <form action="#">
-      <div class="form-row">
-        <label for="name">Name</label>
-        <input type="text" name="name">
+    <div class="footer-group-1">
+      <div class="footer-texts">
+        <h2 class="footer-header">Contact</h2>
+        <p class="footer-sub-text"> I would love to hear about your project and how I could help. Please
+          fill in the form, and I’ll get back to you as soon as possible.</p>
       </div>
-      <div class="form-row">
-        <label for="email">Email</label>
-        <input type="email" name="email">
-      </div>
-      <div class="form-row">
-        <label for="message">Message</label>
-        <textarea name="message" rows="5" cols="30">
-          </textarea>
-      </div class="form-row">
-      <div class="form-button">
-        <button type="submit">Send Message</button>
-      </div>
-    </form>
 
-    <div class="footer-rings">
-      <img src="./dist/assets/images/pattern-rings.svg" alt="">
+      <form action="#">
+        <div class="form-row">
+          <label for="name">Name</label>
+          <input type="text" name="name">
+        </div>
+        <div class="form-row">
+          <label for="email">Email</label>
+          <input type="email" name="email">
+        </div>
+        <div class="form-row">
+          <label for="message">Message</label>
+          <textarea name="message" rows="5" cols="30">
+          </textarea>
+        </div class="form-row">
+        <div class="form-button">
+          <button type="submit">Send Message</button>
+        </div>
+      </form>
+
+      <div class="footer-rings">
+        <img src="./dist/assets/images/pattern-rings.svg" alt="">
+      </div>
+
     </div>
 
-    <hr />
+    <div class="footer-group-2">
+      <hr />
 
-    <div class="footer-social">
-      <p class="text-logo">Paul Figueroa</p>
-      <div class="social-icons">
-        <img src="./dist/assets/images/icon-frontend-mentor.svg" alt="Front end mentor">
-        <img src="./dist/assets/images/icon-github.svg" alt="Github">
-        <img src="./dist/assets/images/icon-linkedin.svg" alt="Linkedin">
-        <img src="./dist/assets/images/icon-twitter.svg" alt="Twitter">
+      <div class="footer-social">
+        <p class="text-logo">Paul Figueroa</p>
+        <div class="social-icons">
+          <img src="./dist/assets/images/icon-frontend-mentor.svg" alt="Front end mentor">
+          <img src="./dist/assets/images/icon-github.svg" alt="Github">
+          <img src="./dist/assets/images/icon-linkedin.svg" alt="Linkedin">
+          <img src="./dist/assets/images/icon-twitter.svg" alt="Twitter">
+        </div>
       </div>
     </div>
 

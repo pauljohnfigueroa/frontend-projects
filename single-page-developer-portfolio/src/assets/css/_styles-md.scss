@@ -1,0 +1,215 @@
+//Tablet
+@media screen and (min-width: 376px) {
+
+    header {
+        display: flex;
+        flex-direction: row;
+        //align-items: center;
+        justify-content: space-between;
+        height: 80px;
+        width: 90vw;
+        margin: auto;
+
+        .text-logo {
+            position: unset;
+            top: unset;
+        }
+
+        .social-icons {
+            position: unset;
+            top: unset;
+
+            img {
+                padding: 0 12px;
+            }
+        }
+    }
+
+
+    .hero {
+        display: unset;
+        flex-direction: unset;
+        align-items: unset;
+        margin-bottom: 100px; // push <hr> down
+
+        .profile-picture-sm {
+            visibility: hidden;
+            height: 0;
+        }
+
+        .profile-picture-md {
+            visibility: visible;
+            height: auto;
+            position: absolute;
+            top: 0;
+            right: 0;
+            z-index: -1;
+
+            img {
+                width: 322px;
+                height: auto;
+            }
+        }
+
+        .profile-picture-lg {
+            visibility: hidden;
+            height: 0;
+        }
+
+        .pattern-rings {
+            left: -300px;
+        }
+
+        .pattern-circle {
+            position: absolute;
+            top: unset;
+            bottom: 48px;
+            right: -70px;
+            z-index: 99;
+        }
+
+        .hero-texts {
+            align-items: unset;
+            text-align: left;
+            //width: 70%;
+            max-width: 65%;
+            margin-top: 50px;
+            margin-bottom: 120px; // push <hr> down
+            margin-left: 5vw;
+
+            .hero-heading {
+                font-size: 72px;
+                font-weight: 700;
+                line-height: 82px;
+                margin-top: 30px;
+            }
+
+            .hero-sub-texts {
+                max-width: 50%;
+            }
+        }
+    }
+
+
+    .skills {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        width: 90vw;
+        margin: auto;
+        padding-bottom: 100px;
+
+        .skills-item {
+            text-align: left;
+            width: 50%;
+
+            .skills-name {
+                font-size: 48px;
+                line-height: 56px;
+                margin-bottom: 10px;
+            }
+
+            .skills-description {
+                font-size: 18px;
+                line-height: 28px;
+            }
+        }
+    }
+
+    .projects {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: unset;
+        width: 90vw;
+        margin: auto;
+
+        .hr-projects {
+            visibility: hidden;
+            height: 0;
+        }
+
+        .projects-header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            width: 90vw;
+            margin-bottom: 30px;
+            // border: 1px dashed red;
+
+            .projects-heading {
+                font-size: 52px;
+                font-weight: 700;
+                line-height: 62px;
+            }
+
+            .projects-link {
+
+                text-transform: uppercase;
+                padding-bottom: 10px;
+                border-bottom: 2px solid #4ee1a0;
+
+                a {
+                    color: #fff;
+                    text-decoration: none;
+                    font-size: 16px;
+                    font-weight: 700;
+                    line-height: 26px;
+                    letter-spacing: 2.2px;
+                }
+
+            }
+        }
+
+        .card {
+            width: 48%;
+
+            img {
+                width: 100%;
+            }
+
+        }
+    }
+
+
+    footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        .footer-header {
+            width: 70%;
+            font-size: 72px;
+            line-height: 82px;
+        }
+
+        .footer-sub-text {
+            width: 70%;
+            font-size: 18px;
+            line-height: 28px;
+        }
+
+        form {
+            width: 65%;
+
+            .form-button {
+                button {
+                    width: 110px;
+                    margin-top: 40px;
+                }
+
+            }
+        }
+
+        .footer-rings {
+            position: absolute;
+            top: 580px;
+        }
+
+    }
+
+}
+
+// End Medium

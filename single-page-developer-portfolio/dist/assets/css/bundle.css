@@ -41,7 +41,6 @@ header .social-icons img {
 }
 .hero .profile-picture-sm {
   visibility: visible;
-  z-index: -1;
 }
 .hero .profile-picture-sm img {
   width: 174px;
@@ -89,11 +88,15 @@ header .social-icons img {
 }
 .hero .hero-texts .hero-button {
   font-size: 16px;
+  font-weight: 700;
   line-height: 26px;
+  letter-spacing: 2.2px;
   text-transform: uppercase;
+  width: 120px;
   margin-top: 30px;
   padding-bottom: 6px;
   border-bottom: 1px solid #4ee1a0;
+  text-align: center;
 }
 .hero .hero-texts .hero-button a {
   color: #fff;
@@ -269,7 +272,7 @@ footer form .form-button {
   text-align: right;
 }
 footer form .form-button button {
-  width: 40%;
+  width: 95px;
   text-transform: uppercase;
   padding-bottom: 10px;
   color: #fff;
@@ -311,6 +314,8 @@ footer .footer-social .social-icons img {
     flex-direction: row;
     justify-content: space-between;
     height: 80px;
+    width: 90vw;
+    margin: auto;
   }
   header .text-logo {
     position: unset;
@@ -324,8 +329,9 @@ footer .footer-social .social-icons img {
     padding: 0 12px;
   }
   .hero {
-    display: flex;
-    flex-direction: row;
+    display: unset;
+    flex-direction: unset;
+    align-items: unset;
     margin-bottom: 100px;
   }
   .hero .profile-picture-sm {
@@ -334,6 +340,11 @@ footer .footer-social .social-icons img {
   }
   .hero .profile-picture-md {
     visibility: visible;
+    height: auto;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -1;
   }
   .hero .profile-picture-md img {
     width: 322px;
@@ -344,53 +355,234 @@ footer .footer-social .social-icons img {
     height: 0;
   }
   .hero .pattern-rings {
-    position: absolute;
-    top: 120px;
-    left: -350px;
-    z-index: -2;
+    left: -300px;
   }
   .hero .pattern-circle {
     position: absolute;
-    top: 250px;
+    top: unset;
+    bottom: 48px;
     right: -70px;
-    z-index: -2;
+    z-index: 99;
   }
   .hero .hero-texts {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
+    align-items: unset;
+    text-align: left;
+    max-width: 65%;
+    margin-top: 50px;
+    margin-bottom: 120px;
+    margin-left: 5vw;
   }
   .hero .hero-texts .hero-heading {
-    font-size: 40px;
+    font-size: 72px;
     font-weight: 700;
-    line-height: 48px;
+    line-height: 82px;
     margin-top: 30px;
   }
   .hero .hero-texts .hero-sub-texts {
+    max-width: 50%;
+  }
+  .skills {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    width: 90vw;
+    margin: auto;
+    padding-bottom: 100px;
+  }
+  .skills .skills-item {
+    text-align: left;
+    width: 50%;
+  }
+  .skills .skills-item .skills-name {
+    font-size: 48px;
+    line-height: 56px;
+    margin-bottom: 10px;
+  }
+  .skills .skills-item .skills-description {
+    font-size: 18px;
+    line-height: 28px;
+  }
+  .projects {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: unset;
+    width: 90vw;
+    margin: auto;
+  }
+  .projects .hr-projects {
+    visibility: hidden;
+    height: 0;
+  }
+  .projects .projects-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90vw;
+    margin-bottom: 30px;
+  }
+  .projects .projects-header .projects-heading {
+    font-size: 52px;
+    font-weight: 700;
+    line-height: 62px;
+  }
+  .projects .projects-header .projects-link {
+    text-transform: uppercase;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #4ee1a0;
+  }
+  .projects .projects-header .projects-link a {
+    color: #fff;
+    text-decoration: none;
     font-size: 16px;
+    font-weight: 700;
     line-height: 26px;
+    letter-spacing: 2.2px;
+  }
+  .projects .card {
+    width: 48%;
+  }
+  .projects .card img {
+    width: 100%;
+  }
+  footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  footer .footer-header {
+    width: 70%;
+    font-size: 72px;
+    line-height: 82px;
+  }
+  footer .footer-sub-text {
+    width: 70%;
+    font-size: 18px;
+    line-height: 28px;
+  }
+  footer form {
+    width: 65%;
+  }
+  footer form .form-button button {
+    width: 110px;
+    margin-top: 40px;
+  }
+  footer .footer-rings {
+    position: absolute;
+    top: 580px;
+  }
+}
+@media screen and (min-width: 769px) {
+  .hero {
+    display: unset;
+    flex-direction: unset;
+    align-items: unset;
+    margin-bottom: 100px;
+  }
+  .hero .profile-picture-sm {
+    visibility: hidden;
+    height: 0;
+  }
+  .hero .profile-picture-md {
+    visibility: hidden;
+    height: 0;
+  }
+  .hero .profile-picture-lg {
+    visibility: visible;
+    height: auto;
+    position: absolute;
+    top: 0;
+    right: 5vw;
+    z-index: -1;
+  }
+  .hero .profile-picture-lg img {
+    width: 445px;
+    height: auto;
+  }
+  .hero .pattern-rings {
+    left: -80px;
+  }
+  .hero .pattern-circle {
+    top: unset;
+    bottom: 0;
+    right: 33%;
+  }
+  .hero .hero-texts {
+    margin-top: 80px;
+    margin-bottom: 280px;
+  }
+  .hero .hero-texts .hero-heading {
+    font-size: 88px;
+    font-weight: 700;
+    line-height: 82px;
     margin-top: 30px;
   }
-  .hero .hero-texts .hero-name {
-    border-bottom: 5px solid #4ee1a0;
+  .hero .hero-texts .hero-sub-texts {
+    font-size: 18px;
+    line-height: 28px;
+    margin-top: 50px;
+    max-width: 40%;
   }
   .hero .hero-texts .hero-button {
-    font-size: 16px;
-    line-height: 26px;
-    text-transform: uppercase;
-    margin-top: 30px;
-    padding-bottom: 6px;
-    border-bottom: 1px solid #4ee1a0;
+    margin-top: 60px;
   }
-  .hero .hero-texts .hero-button a {
-    color: #fff;
-    text-decoration: none;
+  .skills {
+    text-align: left;
+    margin-top: 40px;
   }
-  .hero .hero-texts .hero-button a:hover {
-    color: #fff;
-    text-decoration: none;
+  .skills .skills-item {
+    width: 32%;
+  }
+  footer {
+    display: flex;
+    flex-direction: column;
+  }
+  footer .footer-group-1 {
+    display: flex;
+  }
+  footer .footer-group-1 .footer-texts {
+    margin-left: 5vw;
+  }
+  footer .footer-group-1 .footer-texts .footer-header {
+    width: 70%;
+    font-size: 72px;
+    line-height: 82px;
+    text-align: left;
+  }
+  footer .footer-group-1 .footer-texts .footer-sub-text {
+    width: 60%;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: left;
+    padding: 0;
+  }
+  footer .footer-group-1 form {
+    width: 60%;
+    margin-right: 5vw;
+  }
+  footer .footer-group-1 form .form-button button {
+    width: 110px;
+    margin-top: 40px;
+  }
+  footer .footer-rings {
+    position: absolute;
+    top: 300px;
+    left: -180px;
+  }
+  footer .footer-group-2 {
+    display: flex;
+    flex-direction: column;
+  }
+  footer .footer-group-2 .footer-social {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  footer .footer-group-2 .footer-social .social-icons {
+    margin-top: 0;
   }
 }
 
-/*# sourceMappingURL=styles.css.map */
+/*# sourceMappingURL=bundle.css.map */
