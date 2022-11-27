@@ -172,8 +172,12 @@ hr {
 .projects .card {
   width: 90vw;
 }
-.projects .card img {
+.projects .card .projects-photo img {
   width: 100%;
+}
+.projects .card .projects-photo .overlay {
+  visibility: hidden;
+  height: 0;
 }
 .projects .card .projects-title {
   text-transform: uppercase;
@@ -535,6 +539,34 @@ footer .footer-social .social-icons img {
   .skills .skills-item {
     width: 32%;
   }
+  .projects .card {
+    position: relative;
+  }
+  .projects .card .projects-photo img {
+    width: 100%;
+  }
+  .projects .card .projects-photo .overlay {
+    position: absolute;
+    top: 0;
+    visibility: hidden;
+    width: 100%;
+    height: 83%;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 2;
+  }
+  .projects .card .projects-links {
+    visibility: hidden;
+    position: absolute;
+    top: 25%;
+    left: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 3;
+  }
+  .projects .card .projects-links .projects-links-item {
+    margin: 10px 0;
+  }
   footer {
     display: flex;
     flex-direction: column;
@@ -583,6 +615,9 @@ footer .footer-social .social-icons img {
   footer .footer-group-2 .footer-social .social-icons {
     margin-top: 0;
   }
+}
+.visible {
+  visibility: visible;
 }
 
 /*# sourceMappingURL=bundle.css.map */

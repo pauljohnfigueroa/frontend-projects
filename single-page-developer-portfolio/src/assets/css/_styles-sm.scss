@@ -203,8 +203,16 @@ hr {
     .card {
         width: 90vw;
 
-        img {
-            width: 100%;
+        .projects-photo {
+
+            img {
+                width: 100%;
+            }
+
+            .overlay {
+                visibility: hidden;
+                height: 0;
+            }
         }
 
         .projects-title {
