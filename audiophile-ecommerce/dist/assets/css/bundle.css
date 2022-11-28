@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700&display=swap");
+body {
+  font-family: "Manrope", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #191919;
+  color: #fff;
+}
+header .nav-desktop {
+  visibility: hidden;
+  height: 0;
+}
+
+.hero {
+  background-image: url();
+}
+
+/*# sourceMappingURL=bundle.css.map */
