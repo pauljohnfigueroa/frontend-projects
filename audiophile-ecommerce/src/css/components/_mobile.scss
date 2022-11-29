@@ -1,13 +1,40 @@
 header {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    border-bottom: 1px solid #979797;
     background-color: #191919;
     color: #fff;
+    padding: 35px 20px;
 
     .nav-desktop {
         visibility: hidden;
         height: 0;
+        position: absolute; // my hack to make the header properly aligned
     }
+
 }
 
 .hero {
-    background-image: url();
+    width: 100vw;
+    position: relative;
+
+    img {
+        width: 100%;
+    }
+
+    .hero-message {
+        border: 1px dashed rgb(132, 0, 255);
+        position: absolute;
+        top: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        //align-items: center; // reduced element width
+        text-align: center; // maintains 100% width
+        z-index: 99;
+        width: 90%;
+    }
 }
