@@ -340,3 +340,48 @@ header {
 
     }
 }
+
+.marketing-section {
+    margin-top: 80px;
+
+    .header-image {
+        width: 90vw;
+        margin: auto;
+
+        img {
+            border-radius: 8px;
+            width: 100%;
+            object-fit: contain;
+        }
+    }
+
+    .marketing-section-texts {
+        width: 90vw;
+        margin: auto;
+        text-align: center;
+
+        .marketing-section-heading {
+            font-size: 28px;
+            font-weight: 700;
+            text-transform: uppercase;
+            width: 90%;
+            margin: auto;
+
+            padding: 20px;
+
+            span {
+                color: #d87d4a;
+            }
+        }
+
+        .marketing-section-subtexts {
+            color: rgba(0, 0, 0, .5);
+            font-size: 15px;
+            line-height: 25px;
+            padding: 0 5px;
+        }
+
+    }
+
+
+}
