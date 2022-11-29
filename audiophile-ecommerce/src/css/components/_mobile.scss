@@ -20,7 +20,6 @@ header {
 }
 
 .hero {
-    border: 1px dashed rgb(255, 0, 0);
     position: relative;
 
     img {
@@ -32,13 +31,11 @@ header {
     .hero-message {
         position: absolute;
         top: 0;
-        border: 1px dashed rgb(102, 101, 101);
         text-align: center;
         width: 100%;
         margin-top: 50%;
 
         .hero-message-container {
-            border: 1px dashed rgb(102, 101, 101);
             text-align: center;
             width: 100%;
             padding: 20px;
@@ -83,6 +80,66 @@ header {
                     text-transform: uppercase;
                 }
             }
+        }
+
+    }
+}
+
+.categories-section {
+    display: flex;
+    flex-direction: column;
+    //justify-content: center;
+    align-items: center;
+
+    .category-card {
+        background-color: #f1f1f1;
+        border-radius: 8px;
+        width: 88vw;
+        margin-top: 80px;
+        position: relative;
+        text-align: center;
+        min-height: 165px;
+
+        .image-container {
+            position: absolute;
+            top: -60px;
+            //border: 1px dashed yellow;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+
+            img {
+                width: 145px;
+            }
+        }
+
+        .category-heading {
+            font-size: 15px;
+            font-weight: 700;
+            letter-spacing: 1.1px;
+            text-transform: uppercase;
+            margin-top: 25%;
+        }
+
+        .category-link {
+            font-size: 13px;
+            font-weight: 700;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+            margin-top: 20px;
+
+            a {
+                color: rgba(0, 0, 0, .5);
+
+                span {
+                    color: #d87d4a;
+                }
+
+                &:hover {
+                    color: rgba(255, 136, 0, 0.5);
+                }
+            }
+
         }
 
     }
