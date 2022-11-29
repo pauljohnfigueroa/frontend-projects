@@ -15,9 +15,12 @@ a {
 }
 
 header {
+  position: absolute;
+  z-index: 99;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  width: 100vw;
   border-bottom: 1px solid #979797;
   background-color: #191919;
   color: #fff;
