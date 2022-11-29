@@ -45,7 +45,7 @@ header .nav-desktop {
   top: 0;
   text-align: center;
   width: 100%;
-  margin-top: 50%;
+  margin-top: 45%;
 }
 .hero .hero-message .hero-message-container {
   text-align: center;
@@ -142,7 +142,7 @@ header .nav-desktop {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin-top: 20px;
+  margin-top: 100px;
 }
 .featured-products-section .featured-product-1 {
   background-color: #d87d4a;
@@ -305,7 +305,7 @@ header .nav-desktop {
 }
 
 .marketing-section {
-  margin-top: 80px;
+  margin-top: 100px;
 }
 .marketing-section .header-image {
   width: 90vw;

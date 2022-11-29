@@ -33,7 +33,7 @@ header {
         top: 0;
         text-align: center;
         width: 100%;
-        margin-top: 50%;
+        margin-top: 45%;
 
         .hero-message-container {
             text-align: center;
@@ -88,7 +88,6 @@ header {
 .categories-section {
     display: flex;
     flex-direction: column;
-    //justify-content: center;
     align-items: center;
 
     .category-card {
@@ -149,7 +148,7 @@ header {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin-top: 20px;
+    margin-top: 100px;
 
     .featured-product-1 {
         background-color: #d87d4a;
@@ -342,7 +341,7 @@ header {
 }
 
 .marketing-section {
-    margin-top: 80px;
+    margin-top: 100px;
 
     .header-image {
         width: 90vw;
@@ -382,6 +381,4 @@ header {
         }
 
     }
-
-
 }
