@@ -24,7 +24,7 @@ header {
   border-bottom: 1px solid #979797;
   background-color: #191919;
   color: #fff;
-  padding: 35px 20px;
+  padding: 25px 20px;
 }
 header .nav-desktop {
   visibility: hidden;
@@ -97,7 +97,7 @@ header .nav-desktop {
 .categories-section .category-card {
   background-color: #f1f1f1;
   border-radius: 8px;
-  width: 88vw;
+  width: 90vw;
   margin-top: 80px;
   position: relative;
   text-align: center;
@@ -135,6 +135,75 @@ header .nav-desktop {
 }
 .categories-section .category-card .category-link a:hover {
   color: rgba(255, 136, 0, 0.5);
+}
+
+.featured-products-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+.featured-products-section .featured-product-1 {
+  background-color: #d87d4a;
+  position: relative;
+  border-radius: 8px;
+  max-height: 600px;
+  width: 90vw;
+}
+.featured-products-section .featured-product-1 .bg-image {
+  background-image: url("../../..//dist/assets/images/home/desktop/pattern-circles.svg");
+  object-fit: cover;
+  background-size: 170%;
+  background-position: center -120px;
+  background-repeat: no-repeat;
+}
+.featured-products-section .featured-product-1 .bg-image img {
+  visibility: hidden;
+}
+.featured-products-section .featured-product-1 .featured-product-image {
+  position: absolute;
+  top: 60px;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.featured-products-section .featured-product-1 .featured-product-image img {
+  width: 172px;
+}
+.featured-products-section .featured-product-1 .featured-product-texts {
+  position: absolute;
+  top: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.featured-products-section .featured-product-1 .featured-product-texts .featured-product-heading {
+  color: #fff;
+  font-size: 36px;
+  letter-spacing: 1.3px;
+  line-height: 40px;
+  width: 60%;
+}
+.featured-products-section .featured-product-1 .featured-product-texts .featured-product-subtext {
+  color: #fff;
+  margin-top: 30px;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 25px;
+  width: 80%;
+}
+.featured-products-section .featured-product-1 .featured-product-texts .featured-product-button {
+  background-color: black;
+  padding: 15px 25px;
+  margin-top: 20px;
+}
+.featured-products-section .featured-product-1 .featured-product-texts .featured-product-button a {
+  color: #fff;
+  font-size: 13px;
+  font-weight: 700;
+  text-transform: uppercase;
 }
 
 /*# sourceMappingURL=bundle.css.map */
