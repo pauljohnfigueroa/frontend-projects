@@ -4,6 +4,10 @@ body {
   overflow-x: hidden;
 }
 
+a {
+  text-decoration: none;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -26,22 +30,63 @@ header .nav-desktop {
 }
 
 .hero {
-  width: 100vw;
+  border: 1px dashed rgb(255, 0, 0);
   position: relative;
 }
 .hero img {
-  width: 100%;
+  width: 100vw;
+  object-fit: contain;
+  z-index: -1;
 }
 .hero .hero-message {
-  border: 1px dashed rgb(132, 0, 255);
   position: absolute;
   top: 0;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+  border: 1px dashed rgb(102, 101, 101);
   text-align: center;
-  z-index: 99;
-  width: 90%;
+  width: 100%;
+  margin-top: 50%;
+}
+.hero .hero-message .hero-message-container {
+  border: 1px dashed rgb(102, 101, 101);
+  text-align: center;
+  width: 100%;
+  padding: 20px;
+  margin: auto;
+}
+.hero .hero-message .hero-message-container .hero-sub-heading {
+  color: rgba(255, 255, 255, 0.5);
+  text-transform: uppercase;
+  font-size: 14px;
+  letter-spacing: 10px;
+  margin: 15px;
+}
+.hero .hero-message .hero-message-container .hero-heading {
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+  font-size: 36px;
+  font-weight: 700;
+  letter-spacing: 1.29px;
+  line-height: 40px;
+}
+.hero .hero-message .hero-message-container .hero-subtext {
+  color: rgba(255, 255, 255, 0.75);
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 25px;
+  margin: 25px;
+}
+.hero .hero-message .hero-message-container .hero-button {
+  background-color: #d87d4a;
+  width: 160px;
+  padding: 10px 30px;
+  margin: auto;
+}
+.hero .hero-message .hero-message-container .hero-button a {
+  color: #fff;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
 }
 
 /*# sourceMappingURL=bundle.css.map */
