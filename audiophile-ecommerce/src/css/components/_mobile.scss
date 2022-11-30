@@ -1,3 +1,5 @@
+// Mobile
+
 header {
     position: absolute;
     z-index: 99;
@@ -63,7 +65,7 @@ header {
                 font-size: 15px;
                 font-weight: 500;
                 line-height: 25px;
-                margin: 25px;
+                margin: 25px 0;
             }
 
             .hero-button {
@@ -78,6 +80,12 @@ header {
                     font-weight: 700;
                     letter-spacing: 1px;
                     text-transform: uppercase;
+
+
+                }
+
+                &:hover {
+                    background-color: #fbaf85;
                 }
             }
         }
@@ -88,58 +96,65 @@ header {
 .categories-section {
     display: flex;
     flex-direction: column;
-    align-items: center;
 
-    .category-card {
-        background-color: #f1f1f1;
-        border-radius: 8px;
-        width: 90vw;
-        margin-top: 80px;
-        position: relative;
-        text-align: center;
-        min-height: 165px;
+    .categories-card-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100vw;
+        margin-top: 100px;
 
-        .image-container {
-            position: absolute;
-            top: -60px;
-            width: 100%;
-            display: flex;
-            justify-content: center;
+        .category-card {
+            background-color: #f1f1f1;
+            border-radius: 8px;
+            width: 90%;
+            margin-top: 80px;
+            position: relative;
+            text-align: center;
+            min-height: 165px;
 
-            img {
-                width: 145px;
-            }
-        }
+            .image-container {
+                position: absolute;
+                top: -60px;
+                width: 100%;
+                display: flex;
+                justify-content: center;
 
-        .category-heading {
-            font-size: 15px;
-            font-weight: 700;
-            letter-spacing: 1.1px;
-            text-transform: uppercase;
-            margin-top: 25%;
-        }
-
-        .category-link {
-            font-size: 13px;
-            font-weight: 700;
-            letter-spacing: 1px;
-            text-transform: uppercase;
-            margin-top: 20px;
-
-            a {
-                color: rgba(0, 0, 0, .5);
-
-                span {
-                    color: #d87d4a;
-                }
-
-                &:hover {
-                    color: rgba(255, 136, 0, 0.5);
+                img {
+                    width: 145px;
                 }
             }
 
-        }
+            .category-heading {
+                font-size: 15px;
+                font-weight: 700;
+                letter-spacing: 1.1px;
+                text-transform: uppercase;
+                margin-top: 25%;
+            }
 
+            .category-link {
+                font-size: 13px;
+                font-weight: 700;
+                letter-spacing: 1px;
+                text-transform: uppercase;
+                margin-top: 20px;
+
+                a {
+                    color: rgba(0, 0, 0, .5);
+
+                    span {
+                        color: #d87d4a;
+                    }
+
+                    &:hover {
+                        color: rgba(255, 136, 0, 0.5);
+                    }
+                }
+
+            }
+
+        }
     }
 }
 
@@ -394,8 +409,7 @@ footer {
         background-color: #d87d4a;
         height: 4px;
         width: 26%;
-        margin-bottom: 40px;
-
+        margin-bottom: 50px;
     }
 
     ul {

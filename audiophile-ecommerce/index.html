@@ -35,12 +35,16 @@
 
   <!-- Hero -->
   <section class="hero">
-    <img src="./dist/assets/images/home/mobile/image-header.jpg" alt="">
+    <img
+      srcset="./dist/assets/images/home/mobile/image-header.jpg 750w, ./dist/assets/images/home/tablet/image-header.jpg 1536w"
+      sizes="(max-width: 578px) 750px, 1536px" src="./dist/assets/images/home/tablet/image-header.jpg" alt="">
+
     <div class="hero-message">
       <div class="hero-message-container">
         <p class="hero-sub-heading">New Product</p>
         <h1 class="hero-heading">XX99 Mark II Headphones</h1>
-        <p class="hero-subtext">Experience natural, lifelike audio and exceptional build quality made for the passionate
+        <p class="hero-subtext">Experience natural, life-like audio and exceptional build quality made for the
+          passionate
           music enthusiast.</p>
         <div class="hero-button">
           <a href="#">See Product</a>
@@ -52,26 +56,28 @@
 
   <!-- Product Categories -->
   <section class="categories-section">
-    <div class="category-card">
-      <div class="image-container ">
-        <img src="./dist/assets/images/shared/desktop/image-category-thumbnail-headphones.png" alt="">
+    <div class="categories-card-container">
+      <div class="category-card">
+        <div class="image-container ">
+          <img src="./dist/assets/images/shared/desktop/image-category-thumbnail-headphones.png" alt="">
+        </div>
+        <h2 class="category-heading">Headphones</h2>
+        <div class="category-link"><a href="#">Shop <span> > </span></a></div>
       </div>
-      <h2 class="category-heading">Headphones</h2>
-      <div class="category-link"><a href="#">Shop <span> > </span></a></div>
-    </div>
-    <div class="category-card">
-      <div class="image-container ">
-        <img src="./dist/assets/images/shared/desktop/image-category-thumbnail-speakers.png" alt="">
+      <div class="category-card">
+        <div class="image-container ">
+          <img src="./dist/assets/images/shared/desktop/image-category-thumbnail-speakers.png" alt="">
+        </div>
+        <h2 class="category-heading">Speakers</h2>
+        <div class="category-link"><a href="#">Shop <span> > </span></a></div>
       </div>
-      <h2 class="category-heading">Speakers</h2>
-      <div class="category-link"><a href="#">Shop <span> > </span></a></div>
-    </div>
-    <div class="category-card">
-      <div class="image-container ">
-        <img src="./dist/assets/images/shared/desktop/image-category-thumbnail-earphones.png" alt="">
+      <div class="category-card">
+        <div class="image-container ">
+          <img src="./dist/assets/images/shared/desktop/image-category-thumbnail-earphones.png" alt="">
+        </div>
+        <h2 class="category-heading">Earphones</h2>
+        <div class="category-link"><a href="#">Shop <span> > </span></a></div>
       </div>
-      <h2 class="category-heading">Earphones</h2>
-      <div class="category-link"><a href="#">Shop <span> > </span></a></div>
     </div>
   </section>
 
