@@ -1,7 +1,8 @@
 // Tablet
 // header is the same as in mobile layout.
-@media screen and (min-width: 376px) {
+@media screen and (min-width: 578px) {
     .hero {
+
         .hero-message {
             margin-top: 25%;
 
@@ -39,6 +40,7 @@
     }
 
     .featured-products-section {
+
         .featured-product-1 {
             max-height: 720px;
 
@@ -68,6 +70,45 @@
         }
     }
 
+    .featured-product-2 {
 
+        .featured-product-texts {
+            left: 60px !important;
+        }
+    }
+
+    .featured-product-3 {
+        display: flex;
+
+        .bg-image {
+            width: 50% !important;
+            margin-right: 1%;
+
+            img {
+                width: 100%;
+                height: 100%;
+                border-radius: 8px;
+            }
+        }
+
+        .featured-product-texts-container {
+            margin-left: 1%;
+            margin-top: 0 !important;
+            padding-top: 0 !important;
+            padding-left: 2%;
+            min-height: unset !important;
+            height: unset !important;
+            width: 50% !important;
+
+            .featured-product-texts {
+                width: 80%;
+
+                .featured-product-button {
+                    margin-top: 20px;
+                }
+            }
+        }
+
+    }
 
 }

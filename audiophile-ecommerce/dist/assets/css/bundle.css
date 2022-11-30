@@ -228,20 +228,16 @@ header .nav-desktop {
   position: relative;
 }
 .featured-products-section .featured-product-2 .bg-image {
-  background-image: url("../../../dist/assets/images/home/mobile/image-speaker-zx7.jpg");
-  background-size: 100%;
-  background-repeat: no-repeat;
-  border-radius: 8px;
+  width: 90vw;
 }
 .featured-products-section .featured-product-2 .bg-image img {
-  visibility: hidden;
-  min-height: 320px;
-  height: 320px;
+  border-radius: 8px;
+  width: 100%;
 }
 .featured-products-section .featured-product-2 .featured-product-texts {
   position: absolute;
   top: 100px;
-  right: 30%;
+  left: 25px;
   display: flex;
   flex-direction: column;
   align-items: left;
@@ -272,17 +268,11 @@ header .nav-desktop {
   position: relative;
 }
 .featured-products-section .featured-product-3 .bg-image {
-  border-radius: 8px;
-  object-fit: cover;
-  background-image: url("../../../dist/assets/images/home/mobile/image-earphones-yx1.jpg");
-  background-size: 100%;
-  background-position: center;
-  background-repeat: no-repeat;
+  width: 90vw;
 }
 .featured-products-section .featured-product-3 .bg-image img {
-  visibility: hidden;
-  min-height: 200px;
-  height: 200px;
+  width: 100%;
+  border-radius: 8px;
 }
 .featured-products-section .featured-product-3 .featured-product-texts-container {
   border-radius: 8px;
@@ -403,7 +393,7 @@ footer .footer-social-icons img {
   padding: 0 10px;
 }
 
-@media screen and (min-width: 376px) {
+@media screen and (min-width: 578px) {
   .hero .hero-message {
     margin-top: 25%;
   }
@@ -453,6 +443,36 @@ footer .footer-social-icons img {
   }
   .featured-products-section .featured-product-1 .featured-product-texts .featured-product-button {
     margin-top: 50px;
+  }
+  .featured-product-2 .featured-product-texts {
+    left: 60px !important;
+  }
+  .featured-product-3 {
+    display: flex;
+  }
+  .featured-product-3 .bg-image {
+    width: 50% !important;
+    margin-right: 1%;
+  }
+  .featured-product-3 .bg-image img {
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+  }
+  .featured-product-3 .featured-product-texts-container {
+    margin-left: 1%;
+    margin-top: 0 !important;
+    padding-top: 0 !important;
+    padding-left: 2%;
+    min-height: unset !important;
+    height: unset !important;
+    width: 50% !important;
+  }
+  .featured-product-3 .featured-product-texts-container .featured-product-texts {
+    width: 80%;
+  }
+  .featured-product-3 .featured-product-texts-container .featured-product-texts .featured-product-button {
+    margin-top: 20px;
   }
 }
 
