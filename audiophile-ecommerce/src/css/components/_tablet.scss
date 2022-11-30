@@ -37,4 +37,37 @@
             }
         }
     }
+
+    .featured-products-section {
+        .featured-product-1 {
+            max-height: 720px;
+
+            .bg-image {
+                background-size: 150%;
+                background-position: center -380px;
+            }
+
+            .featured-product-texts {
+                top: 45%;
+
+                .featured-product-heading {
+                    font-size: 56px;
+                    letter-spacing: 2px;
+                    line-height: 58px;
+                    width: 50%;
+                }
+
+                .featured-product-subtext {
+                    width: 50%;
+                }
+
+                .featured-product-button {
+                    margin-top: 50px;
+                }
+            }
+        }
+    }
+
+
+
 }
