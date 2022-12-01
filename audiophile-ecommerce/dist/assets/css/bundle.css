@@ -35,10 +35,11 @@ header .header-container {
 }
 header .header-container .hamburger-icon {
   visibility: visible;
-  width: 33%;
+  width: 20%;
 }
 header .header-container .logo {
-  width: 33%;
+  width: 60%;
+  text-align: center;
 }
 header .header-container .nav-desktop {
   visibility: hidden;
@@ -46,7 +47,7 @@ header .header-container .nav-desktop {
   position: absolute;
 }
 header .header-container .cart-icon {
-  width: 33%;
+  width: 20%;
   text-align: right;
 }
 
@@ -527,9 +528,6 @@ footer .footer-container .footer-inner .footer-social-icons img {
   }
 }
 @media screen and (min-width: 769px) {
-  header {
-    border: 1px dashed red;
-  }
   header .header-container .hamburger-icon {
     visibility: hidden;
     height: 0;
@@ -537,6 +535,7 @@ footer .footer-container .footer-inner .footer-social-icons img {
   }
   header .header-container .logo {
     width: 25%;
+    text-align: left;
   }
   header .header-container .nav-desktop {
     visibility: visible;

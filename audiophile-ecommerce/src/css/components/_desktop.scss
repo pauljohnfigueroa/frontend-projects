@@ -1,7 +1,6 @@
 // Desktop
 @media screen and (min-width: 769px) {
     header {
-        border: 1px dashed red;
 
         .header-container {
 
@@ -13,6 +12,7 @@
 
             .logo {
                 width: 25%;
+                text-align: left;
             }
 
             .nav-desktop {
