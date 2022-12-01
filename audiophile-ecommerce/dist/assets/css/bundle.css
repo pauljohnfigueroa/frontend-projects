@@ -21,19 +21,33 @@ ul {
 header {
   position: absolute;
   z-index: 99;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
   width: 100vw;
   border-bottom: 1px solid #979797;
   background-color: #191919;
   color: #fff;
   padding: 25px 20px;
 }
-header .nav-desktop {
+header .header-container {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+header .header-container .hamburger-icon {
+  visibility: visible;
+  width: 33%;
+}
+header .header-container .logo {
+  width: 33%;
+}
+header .header-container .nav-desktop {
   visibility: hidden;
   height: 0;
   position: absolute;
+}
+header .header-container .cart-icon {
+  width: 33%;
+  text-align: right;
 }
 
 .hero {
@@ -510,6 +524,34 @@ footer .footer-container .footer-inner .footer-social-icons img {
   footer .footer-container .footer-inner {
     display: flex;
     justify-content: space-between;
+  }
+}
+@media screen and (min-width: 769px) {
+  header {
+    border: 1px dashed red;
+  }
+  header .header-container .hamburger-icon {
+    visibility: hidden;
+    height: 0;
+    width: 0;
+  }
+  header .header-container .logo {
+    width: 25%;
+  }
+  header .header-container .nav-desktop {
+    visibility: visible;
+    height: unset;
+    position: unset;
+    width: 42%;
+  }
+  header .header-container .nav-desktop ul {
+    display: flex;
+  }
+  header .header-container .nav-desktop ul li {
+    padding: 0 10px;
+  }
+  .hero {
+    position: relative;
   }
 }
 

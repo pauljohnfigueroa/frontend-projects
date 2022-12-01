@@ -1,5 +1,37 @@
 // Desktop
-@media screen and (min-width: 960px) {
+@media screen and (min-width: 769px) {
+    header {
+        border: 1px dashed red;
+
+        .header-container {
+
+            .hamburger-icon {
+                visibility: hidden;
+                height: 0;
+                width: 0;
+            }
+
+            .logo {
+                width: 25%;
+            }
+
+            .nav-desktop {
+                visibility: visible;
+                height: unset;
+                position: unset;
+                width: 42%;
+
+                ul {
+                    display: flex;
+
+                    li {
+                        padding: 0 10px;
+                    }
+
+                }
+            }
+        }
+    }
 
     .hero {
         position: relative;

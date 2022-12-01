@@ -3,9 +3,6 @@
 header {
     position: absolute;
     z-index: 99;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
     width: 100vw;
 
     border-bottom: 1px solid #979797;
@@ -13,12 +10,33 @@ header {
     color: #fff;
     padding: 25px 20px;
 
-    .nav-desktop {
-        visibility: hidden;
-        height: 0;
-        position: absolute; // my hack to make the header properly aligned
-    }
+    .header-container {
+        width: 90%;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
 
+        .hamburger-icon {
+            visibility: visible;
+            width: 33%;
+        }
+
+        .logo {
+            width: 33%;
+        }
+
+        .nav-desktop {
+            visibility: hidden;
+            height: 0;
+            position: absolute; // my hack to make the header properly aligned
+        }
+
+        .cart-icon {
+            width: 33%;
+            text-align: right;
+        }
+
+    }
 }
 
 .hero {
