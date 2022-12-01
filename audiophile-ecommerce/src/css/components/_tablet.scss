@@ -111,4 +111,47 @@
 
     }
 
+    .marketing-section {
+
+        .marketing-section-texts {
+            .marketing-section-heading {
+                font-size: 40px;
+                line-height: 44px;
+                letter-spacing: 1.4px;
+            }
+        }
+    }
+
+    footer {
+        align-items: unset;
+        text-align: left;
+
+        .footer-bar {
+            width: 20%;
+            margin: unset !important;
+        }
+
+        .footer-container {
+
+            ul {
+                display: flex;
+                flex-direction: row;
+
+                li {
+                    padding-right: 40px;
+                }
+            }
+
+            .footer-subtexts {
+                text-align: left;
+                width: 100%;
+            }
+
+            .footer-inner {
+                display: flex;
+                justify-content: space-between;
+            }
+        }
+    }
+
 }

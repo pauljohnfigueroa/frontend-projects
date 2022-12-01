@@ -348,14 +348,24 @@ footer {
   align-items: center;
   background-color: #101010;
   margin-top: 100px;
+  text-align: center;
 }
-footer .footer-bar {
+footer .footer-container {
+  width: 90vw;
+  margin: auto;
+}
+footer .footer-container .footer-bar {
   background-color: #d87d4a;
   height: 4px;
   width: 26%;
-  margin-bottom: 50px;
+  margin: auto;
 }
-footer ul {
+footer .footer-container .logo {
+  margin-top: 50px;
+}
+footer .footer-container ul {
+  display: flex;
+  flex-direction: column;
   margin-top: 40px;
   text-align: center;
   text-transform: uppercase;
@@ -363,33 +373,33 @@ footer ul {
   letter-spacing: 2px;
   line-height: 25px;
 }
-footer ul li {
+footer .footer-container ul li {
   padding: 5px 0;
 }
-footer ul li a {
+footer .footer-container ul li a {
   color: #fff;
 }
-footer ul li a:hover {
+footer .footer-container ul li a:hover {
   color: #d87d4a;
 }
-footer .footer-subtexts {
+footer .footer-container .footer-subtexts {
   color: rgba(255, 255, 255, 0.5);
   font-size: 15px;
   line-height: 25px;
   text-align: center;
-  width: 85%;
+  width: 100%;
   margin-top: 40px;
 }
-footer .footer-copyright {
+footer .footer-container .footer-inner .footer-copyright {
   color: rgba(255, 255, 255, 0.5);
   margin-top: 40px;
   font-size: 15px;
   line-height: 25px;
 }
-footer .footer-social-icons {
+footer .footer-container .footer-inner .footer-social-icons {
   margin: 40px 0;
 }
-footer .footer-social-icons img {
+footer .footer-container .footer-inner .footer-social-icons img {
   padding: 0 10px;
 }
 
@@ -473,6 +483,34 @@ footer .footer-social-icons img {
   }
   .featured-product-3 .featured-product-texts-container .featured-product-texts .featured-product-button {
     margin-top: 10% !important;
+  }
+  .marketing-section .marketing-section-texts .marketing-section-heading {
+    font-size: 40px;
+    line-height: 44px;
+    letter-spacing: 1.4px;
+  }
+  footer {
+    align-items: unset;
+    text-align: left;
+  }
+  footer .footer-bar {
+    width: 20%;
+    margin: unset !important;
+  }
+  footer .footer-container ul {
+    display: flex;
+    flex-direction: row;
+  }
+  footer .footer-container ul li {
+    padding-right: 40px;
+  }
+  footer .footer-container .footer-subtexts {
+    text-align: left;
+    width: 100%;
+  }
+  footer .footer-container .footer-inner {
+    display: flex;
+    justify-content: space-between;
   }
 }
 

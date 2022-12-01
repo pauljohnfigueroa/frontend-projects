@@ -393,57 +393,70 @@ footer {
     align-items: center;
     background-color: #101010;
     margin-top: 100px;
+    text-align: center;
 
-    .footer-bar {
-        background-color: #d87d4a;
-        height: 4px;
-        width: 26%;
-        margin-bottom: 50px;
-    }
+    .footer-container {
+        width: 90vw;
+        margin: auto;
 
-    ul {
-        margin-top: 40px;
-        text-align: center;
-        text-transform: uppercase;
-        font-size: 13px;
-        letter-spacing: 2px;
-        line-height: 25px;
+        .footer-bar {
+            background-color: #d87d4a;
+            height: 4px;
+            width: 26%;
+            margin: auto;
+        }
 
-        li {
-            padding: 5px 0;
+        .logo {
+            margin-top: 50px;
+        }
 
-            a {
-                color: #fff;
+        ul {
+            display: flex;
+            flex-direction: column;
+            margin-top: 40px;
+            text-align: center;
+            text-transform: uppercase;
+            font-size: 13px;
+            letter-spacing: 2px;
+            line-height: 25px;
 
-                &:hover {
-                    color: #d87d4a;
+            li {
+                padding: 5px 0;
+
+                a {
+                    color: #fff;
+
+                    &:hover {
+                        color: #d87d4a;
+                    }
+                }
+            }
+        }
+
+        .footer-subtexts {
+            color: rgba(255, 255, 255, .5);
+            font-size: 15px;
+            line-height: 25px;
+            text-align: center;
+            width: 100%;
+            margin-top: 40px;
+        }
+
+        .footer-inner {
+            .footer-copyright {
+                color: rgba(255, 255, 255, .5);
+                margin-top: 40px;
+                font-size: 15px;
+                line-height: 25px;
+            }
+
+            .footer-social-icons {
+                margin: 40px 0;
+
+                img {
+                    padding: 0 10px;
                 }
             }
         }
     }
-
-    .footer-subtexts {
-        color: rgba(255, 255, 255, .5);
-        font-size: 15px;
-        line-height: 25px;
-        text-align: center;
-        width: 85%;
-        margin-top: 40px;
-    }
-
-    .footer-copyright {
-        color: rgba(255, 255, 255, .5);
-        margin-top: 40px;
-        font-size: 15px;
-        line-height: 25px;
-    }
-
-    .footer-social-icons {
-        margin: 40px 0;
-
-        img {
-            padding: 0 10px;
-        }
-    }
-
 }
