@@ -255,11 +255,17 @@ header {
                     font-size: 13px;
                     font-weight: 700;
                     text-transform: uppercase;
+                }
 
-                    &:hover {
-                        color: #d87d4a;
+                &:hover {
+                    background-color: #4c4c4c;
+                    cursor: pointer;
+
+                    a {
+                        color: white;
                     }
                 }
+
             }
         }
     }
@@ -304,9 +310,14 @@ header {
                 font-size: 13px;
                 font-weight: 700;
                 text-transform: uppercase;
+            }
 
-                &:hover {
-                    color: #d87d4a;
+            &:hover {
+                background-color: black;
+                cursor: pointer;
+
+                a {
+                    color: white
                 }
             }
         }
@@ -355,9 +366,14 @@ header {
                         font-size: 13px;
                         font-weight: 700;
                         text-transform: uppercase;
+                    }
 
-                        &:hover {
-                            color: #d87d4a;
+                    &:hover {
+                        background-color: black;
+                        cursor: pointer;
+
+                        a {
+                            color: white
                         }
                     }
                 }
@@ -478,8 +494,17 @@ footer {
             .footer-social-icons {
                 margin: 40px 0;
 
-                img {
-                    padding-right: 10px;
+
+                svg {
+                    margin: 10px;
+                    width: 24px;
+                    height: 24px;
+
+                    &:hover {
+                        path {
+                            fill: #d87d4a;
+                        }
+                    }
                 }
             }
         }

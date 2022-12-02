@@ -239,8 +239,12 @@ header .header-container .cart-icon {
   font-weight: 700;
   text-transform: uppercase;
 }
-.featured-products-section .featured-product-1 .featured-product-texts .featured-product-button a:hover {
-  color: #d87d4a;
+.featured-products-section .featured-product-1 .featured-product-texts .featured-product-button:hover {
+  background-color: #4c4c4c;
+  cursor: pointer;
+}
+.featured-products-section .featured-product-1 .featured-product-texts .featured-product-button:hover a {
+  color: white;
 }
 .featured-products-section .featured-product-2 {
   margin-top: 20px;
@@ -279,8 +283,12 @@ header .header-container .cart-icon {
   font-weight: 700;
   text-transform: uppercase;
 }
-.featured-products-section .featured-product-2 .featured-product-button a:hover {
-  color: #d87d4a;
+.featured-products-section .featured-product-2 .featured-product-button:hover {
+  background-color: black;
+  cursor: pointer;
+}
+.featured-products-section .featured-product-2 .featured-product-button:hover a {
+  color: white;
 }
 .featured-products-section .featured-product-3 {
   margin-top: 20px;
@@ -323,8 +331,12 @@ header .header-container .cart-icon {
   font-weight: 700;
   text-transform: uppercase;
 }
-.featured-products-section .featured-product-3 .featured-product-texts-container .featured-product-texts .featured-product-button a:hover {
-  color: #d87d4a;
+.featured-products-section .featured-product-3 .featured-product-texts-container .featured-product-texts .featured-product-button:hover {
+  background-color: black;
+  cursor: pointer;
+}
+.featured-products-section .featured-product-3 .featured-product-texts-container .featured-product-texts .featured-product-button:hover a {
+  color: white;
 }
 
 .marketing-section {
@@ -418,8 +430,13 @@ footer .footer-container .footer-inner .footer-copyright {
 footer .footer-container .footer-inner .footer-social-icons {
   margin: 40px 0;
 }
-footer .footer-container .footer-inner .footer-social-icons img {
-  padding-right: 10px;
+footer .footer-container .footer-inner .footer-social-icons svg {
+  margin: 10px;
+  width: 24px;
+  height: 24px;
+}
+footer .footer-container .footer-inner .footer-social-icons svg:hover path {
+  fill: #d87d4a;
 }
 
 @media screen and (min-width: 578px) and (max-width: 1017px) {
@@ -473,13 +490,6 @@ footer .footer-container .footer-inner .footer-social-icons img {
   }
   .featured-products-section .featured-product-1 .featured-product-texts .featured-product-button {
     margin-top: 50px;
-    cursor: pointer;
-  }
-  .featured-products-section .featured-product-1 .featured-product-texts .featured-product-button:hover {
-    background-color: #4c4c4c;
-  }
-  .featured-products-section .featured-product-1 .featured-product-texts .featured-product-button:hover a {
-    color: white;
   }
   .featured-product-2 .bg-image {
     width: 100%;
