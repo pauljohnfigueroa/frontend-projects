@@ -1,5 +1,6 @@
 // Desktop
 @media screen and (min-width: 769px) {
+
     header {
 
         .header-container {
@@ -46,8 +47,6 @@
 
     .hero {
 
-
-
         .hero-message {
 
             width: 60%;
@@ -78,6 +77,39 @@
                 .hero-button {
                     margin: 0;
                 }
+
+            }
+        }
+    }
+
+    .categories-section {
+
+        .categories-card-container {
+            flex-direction: row;
+            justify-content: space-between;
+            width: 75vw;
+
+            .category-card {
+                width: 32%;
+                margin: 0;
+                min-height: 200px;
+            }
+        }
+
+    }
+
+    .featured-products-section {
+
+        .featured-product-1 {
+            width: 75vw;
+            max-height: 560px;
+
+            .bg-image {
+                height: 560px;
+                background-size: 90%;
+                background-position: bottom -320px left -120px;
+                background-repeat: no-repeat;
+                object-fit: contain;
 
             }
         }

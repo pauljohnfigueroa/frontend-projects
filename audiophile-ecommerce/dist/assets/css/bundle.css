@@ -129,9 +129,9 @@ header .header-container .cart-icon {
   border-radius: 8px;
   width: 90%;
   margin-top: 80px;
-  position: relative;
   text-align: center;
   min-height: 165px;
+  position: relative;
 }
 .categories-section .categories-card-container .category-card .image-container {
   position: absolute;
@@ -182,14 +182,11 @@ header .header-container .cart-icon {
   width: 90vw;
 }
 .featured-products-section .featured-product-1 .bg-image {
+  width: 100%;
+  min-height: 560px;
+  max-height: 720px;
+  height: 600px;
   background-image: url("../../../dist/assets/images/home/desktop/pattern-circles.svg");
-  object-fit: cover;
-  background-size: 170%;
-  background-position: center -120px;
-  background-repeat: no-repeat;
-}
-.featured-products-section .featured-product-1 .bg-image img {
-  visibility: hidden;
 }
 .featured-products-section .featured-product-1 .featured-product-image {
   position: absolute;
@@ -450,7 +447,7 @@ footer .footer-container .footer-inner .footer-social-icons img {
     margin: 10px;
   }
   .featured-products-section .featured-product-1 {
-    max-height: 720px;
+    height: 720px;
   }
   .featured-products-section .featured-product-1 .bg-image {
     background-size: 150%;
@@ -586,6 +583,27 @@ footer .footer-container .footer-inner .footer-social-icons img {
   }
   .hero .hero-message .hero-message-container .hero-button {
     margin: 0;
+  }
+  .categories-section .categories-card-container {
+    flex-direction: row;
+    justify-content: space-between;
+    width: 75vw;
+  }
+  .categories-section .categories-card-container .category-card {
+    width: 32%;
+    margin: 0;
+    min-height: 200px;
+  }
+  .featured-products-section .featured-product-1 {
+    width: 75vw;
+    max-height: 560px;
+  }
+  .featured-products-section .featured-product-1 .bg-image {
+    height: 560px;
+    background-size: 90%;
+    background-position: bottom -320px left -120px;
+    background-repeat: no-repeat;
+    object-fit: contain;
   }
 }
 

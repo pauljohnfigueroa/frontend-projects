@@ -129,9 +129,9 @@ header {
             border-radius: 8px;
             width: 90%;
             margin-top: 80px;
-            position: relative;
             text-align: center;
             min-height: 165px;
+            position: relative;
 
             .image-container {
                 position: absolute;
@@ -193,15 +193,11 @@ header {
         width: 90vw;
 
         .bg-image {
+            width: 100%;
+            min-height: 560px;
+            max-height: 720px;
+            height: 600px;
             background-image: url('../../../dist/assets/images/home/desktop/pattern-circles.svg');
-            object-fit: cover;
-            background-size: 170%;
-            background-position: center -120px;
-            background-repeat: no-repeat;
-
-            img {
-                visibility: hidden;
-            }
         }
 
         .featured-product-image {
