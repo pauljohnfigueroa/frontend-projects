@@ -422,7 +422,7 @@ footer .footer-container .footer-inner .footer-social-icons img {
   padding-right: 10px;
 }
 
-@media screen and (min-width: 578px) {
+@media screen and (min-width: 578px) and (max-width: 1017px) {
   .hero .hero-message {
     margin-top: 25%;
   }
@@ -532,7 +532,7 @@ footer .footer-container .footer-inner .footer-social-icons img {
     justify-content: space-between;
   }
 }
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 1018px) {
   header .header-container {
     padding: 35px 0;
   }
@@ -565,7 +565,7 @@ footer .footer-container .footer-inner .footer-social-icons img {
     color: #d87d4a;
   }
   .hero .hero-message {
-    width: 60%;
+    width: 40%;
     margin-top: 15%;
     margin-left: 5%;
   }
@@ -585,15 +585,19 @@ footer .footer-container .footer-inner .footer-social-icons img {
   }
   .hero .hero-message .hero-message-container .hero-subtext {
     margin: 25px 0;
-    width: 80%;
+    width: 70%;
   }
   .hero .hero-message .hero-message-container .hero-button {
     margin: 0;
   }
+  .categories-section {
+    width: 75vw;
+    margin: auto;
+  }
   .categories-section .categories-card-container {
     flex-direction: row;
     justify-content: space-between;
-    width: 75vw;
+    width: 100%;
   }
   .categories-section .categories-card-container .category-card {
     width: 32%;
@@ -643,20 +647,24 @@ footer .footer-container .footer-inner .footer-social-icons img {
   }
   .featured-products-section .featured-product-3 {
     width: 75vw;
+    display: flex;
   }
   .featured-products-section .featured-product-3 .bg-image {
-    width: 100%;
-    height: 320px;
-    background-position: top center;
+    width: 50% !important;
+    margin-right: 1%;
   }
   .featured-products-section .featured-product-3 .bg-image img {
     width: 100%;
-    object-fit: cover;
+    height: 100%;
     border-radius: 8px;
   }
   .featured-products-section .featured-product-3 .featured-product-texts-container {
-    height: 320px;
+    width: 50% !important;
     padding-top: 10% !important;
+    height: unset !important;
+    padding-top: 0;
+    margin-top: 0;
+    margin-left: 1%;
   }
   .marketing-section {
     width: 75vw;
