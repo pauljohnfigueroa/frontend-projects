@@ -66,12 +66,31 @@
 
                 .featured-product-button {
                     margin-top: 50px;
+                    cursor: pointer;
+
+                    &:hover {
+                        background-color: #4c4c4c;
+
+                        a {
+                            color: white
+                        }
+                    }
                 }
             }
         }
     }
 
     .featured-product-2 {
+        .bg-image {
+            width: 100%;
+            height: 100%;
+
+            img {
+                border-radius: 8px;
+                width: 100%;
+                height: 100%;
+            }
+        }
 
         .featured-product-texts {
             left: 60px !important;
