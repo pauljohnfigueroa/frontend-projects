@@ -607,7 +607,7 @@ footer .footer-container .footer-inner .footer-social-icons img {
   .featured-products-section .featured-product-1 .bg-image {
     height: 560px;
     background-size: 95%;
-    background-position: bottom -320px left -120px;
+    background-position: bottom -320px left -135px;
   }
   .featured-products-section .featured-product-1 .featured-product-image {
     top: 110px;
@@ -663,16 +663,21 @@ footer .footer-container .footer-inner .footer-social-icons img {
     padding-top: 100px;
     display: flex;
     flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-between;
   }
   .marketing-section .header-image {
-    width: 50%;
+    width: 49%;
+    margin: 0;
+    flex-basis: 1;
   }
   .marketing-section .header-image img {
     border-radius: 8px;
     width: 100%;
   }
   .marketing-section .marketing-section-texts {
-    width: 50%;
+    width: 49%;
+    margin: 0;
     padding-right: 6%;
     text-align: left;
   }

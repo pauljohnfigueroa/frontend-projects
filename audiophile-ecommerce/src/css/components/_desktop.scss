@@ -107,7 +107,7 @@
             .bg-image {
                 height: 560px;
                 background-size: 95%;
-                background-position: bottom -320px left -120px;
+                background-position: bottom -320px left -135px;
             }
 
             .featured-product-image {
@@ -181,9 +181,13 @@
         padding-top: 100px;
         display: flex;
         flex-direction: row-reverse;
+        align-items: center;
+        justify-content: space-between;
 
         .header-image {
-            width: 50%;
+            width: 49%;
+            margin: 0;
+            flex-basis: 1;
 
             img {
                 border-radius: 8px;
@@ -192,9 +196,11 @@
         }
 
         .marketing-section-texts {
-            width: 50%;
+            width: 49%;
+            margin: 0; // overrides the margin: auto.
             padding-right: 6%;
             text-align: left;
+
 
             .marketing-section-heading {
                 margin: unset;
