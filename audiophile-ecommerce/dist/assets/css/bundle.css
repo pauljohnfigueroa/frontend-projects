@@ -135,13 +135,13 @@ header .header-container .cart-icon {
 }
 .categories-section .categories-card-container .category-card .image-container {
   position: absolute;
-  top: -60px;
+  top: -50px;
   width: 100%;
   display: flex;
   justify-content: center;
 }
 .categories-section .categories-card-container .category-card .image-container img {
-  width: 25%;
+  width: 45%;
 }
 .categories-section .categories-card-container .category-card .category-heading {
   font-size: 15px;
