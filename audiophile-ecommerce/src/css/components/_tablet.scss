@@ -35,6 +35,19 @@
 
             .category-card {
                 margin: 10px;
+
+                .image-container {
+                    top: -50px;
+
+                    img {
+                        width: 65%;
+                    }
+                }
+
+                .category-heading {
+                    margin-top: 38%;
+                }
+
             }
         }
     }
