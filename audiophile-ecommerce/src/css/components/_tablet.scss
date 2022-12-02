@@ -127,19 +127,22 @@
         align-items: unset;
         text-align: left;
 
-        .footer-bar {
-            width: 20%;
-            margin: unset !important;
-        }
-
         .footer-container {
 
-            ul {
-                display: flex;
-                flex-direction: row;
+            .footer-bar {
+                width: 16%;
+                margin: unset !important;
+            }
 
-                li {
-                    padding-right: 40px;
+            .footer-group-1 {
+
+                ul {
+                    display: flex;
+                    flex-direction: row;
+
+                    li {
+                        padding-right: 40px;
+                    }
                 }
             }
 
