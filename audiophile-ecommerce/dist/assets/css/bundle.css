@@ -331,7 +331,7 @@ header .header-container .cart-icon {
   margin-top: 100px;
 }
 .marketing-section .header-image {
-  width: 90vw;
+  width: 90%;
   margin: auto;
 }
 .marketing-section .header-image img {
@@ -340,7 +340,7 @@ header .header-container .cart-icon {
   object-fit: contain;
 }
 .marketing-section .marketing-section-texts {
-  width: 90vw;
+  width: 90%;
   margin: auto;
   text-align: center;
 }
@@ -348,7 +348,6 @@ header .header-container .cart-icon {
   font-size: 28px;
   font-weight: 700;
   text-transform: uppercase;
-  width: 90%;
   margin: auto;
   padding: 20px;
 }
@@ -657,6 +656,29 @@ footer .footer-container .footer-inner .footer-social-icons img {
   .featured-products-section .featured-product-3 .featured-product-texts-container {
     height: 320px;
     padding-top: 10% !important;
+  }
+  .marketing-section {
+    width: 75vw;
+    margin: auto;
+    padding-top: 100px;
+    display: flex;
+    flex-direction: row-reverse;
+  }
+  .marketing-section .header-image {
+    width: 50%;
+  }
+  .marketing-section .header-image img {
+    border-radius: 8px;
+    width: 100%;
+  }
+  .marketing-section .marketing-section-texts {
+    width: 50%;
+    padding-right: 6%;
+    text-align: left;
+  }
+  .marketing-section .marketing-section-texts .marketing-section-heading {
+    margin: unset;
+    padding: 20px 0;
   }
 }
 

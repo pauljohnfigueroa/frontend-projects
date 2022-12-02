@@ -174,4 +174,35 @@
 
 
     }
+
+    .marketing-section {
+        width: 75vw;
+        margin: auto;
+        padding-top: 100px;
+        display: flex;
+        flex-direction: row-reverse;
+
+        .header-image {
+            width: 50%;
+
+            img {
+                border-radius: 8px;
+                width: 100%;
+            }
+        }
+
+        .marketing-section-texts {
+            width: 50%;
+            padding-right: 6%;
+            text-align: left;
+
+            .marketing-section-heading {
+                margin: unset;
+                padding: 20px 0;
+            }
+
+        }
+
+
+    }
 }
