@@ -2,19 +2,19 @@
 
 header {
     position: absolute;
-    z-index: 99;
-    width: 100vw;
-
-    border-bottom: 1px solid #979797;
-    background-color: #191919;
+    background-color: #131313;
     color: #fff;
-    padding: 25px 20px;
+    width: 100vw;
+    z-index: 99;
 
     .header-container {
         width: 90%;
+        height: 95px;
         margin: auto;
         display: flex;
         justify-content: space-between;
+        padding: 25px 20px;
+        border-bottom: 1px solid #979797;
 
         .hamburger-icon {
             visibility: visible;
@@ -42,6 +42,7 @@ header {
 
 .hero {
     position: relative;
+    background-color: 131313;
 
     img {
         width: 100vw;

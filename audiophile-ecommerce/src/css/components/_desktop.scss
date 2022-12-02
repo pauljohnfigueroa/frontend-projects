@@ -3,11 +3,14 @@
     header {
 
         .header-container {
+            padding: 25px 0;
 
             .hamburger-icon {
                 visibility: hidden;
                 height: 0;
                 width: 0;
+
+                position: absolute; // so the logo can move close to the left border of the container
             }
 
             .logo {
@@ -26,6 +29,14 @@
 
                     li {
                         padding: 0 10px;
+
+                        a {
+                            color: #fff;
+
+                            &:hover {
+                                color: #d87d4a;
+                            }
+                        }
                     }
 
                 }
