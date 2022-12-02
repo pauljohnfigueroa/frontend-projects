@@ -106,11 +106,41 @@
 
             .bg-image {
                 height: 560px;
-                background-size: 90%;
+                background-size: 95%;
                 background-position: bottom -320px left -120px;
-                background-repeat: no-repeat;
-                object-fit: contain;
+            }
 
+            .featured-product-image {
+                top: 110px;
+                left: 16%;
+                width: 60%;
+                justify-content: left;
+
+                img {
+                    width: 60%;
+                }
+            }
+
+            .featured-product-texts {
+                width: 40%;
+                top: 25%;
+                right: 0;
+                text-align: left;
+                align-items: unset;
+
+                .featured-product-heading {
+                    width: 80%;
+                }
+
+                .featured-product-subtext {
+                    width: 90%;
+                }
+
+            }
+
+            .featured-product-button {
+                width: 160px;
+                text-align: center;
             }
         }
     }

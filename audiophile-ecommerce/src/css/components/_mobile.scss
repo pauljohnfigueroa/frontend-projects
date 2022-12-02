@@ -197,7 +197,12 @@ header {
             min-height: 560px;
             max-height: 720px;
             height: 600px;
+
             background-image: url('../../../dist/assets/images/home/desktop/pattern-circles.svg');
+            background-size: 170%;
+            background-position: top -120px center;
+            background-repeat: no-repeat;
+            object-fit: contain;
         }
 
         .featured-product-image {
@@ -215,11 +220,12 @@ header {
         .featured-product-texts {
             position: absolute;
             top: 50%;
+            width: 100%;
             display: flex;
             flex-direction: column;
             align-items: center;
             text-align: center;
-            width: 100%;
+
 
             .featured-product-heading {
                 color: #fff;
@@ -242,6 +248,7 @@ header {
                 background-color: black;
                 padding: 15px 25px;
                 margin-top: 20px;
+                text-align: center;
 
                 a {
                     color: #fff;
