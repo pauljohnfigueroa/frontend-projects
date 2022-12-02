@@ -45,7 +45,41 @@
     }
 
     .hero {
-        position: relative;
 
+
+
+        .hero-message {
+
+            width: 60%;
+            margin-top: 15%;
+            margin-left: 5%;
+
+            .hero-message-container {
+                text-align: left;
+                padding: 0;
+                margin: unset;
+
+                .hero-sub-heading {
+                    margin: 0;
+                    margin-bottom: 15px;
+                }
+
+                .hero-heading {
+                    font-size: 56px;
+                    line-height: 68px;
+                    letter-spacing: 2px;
+                }
+
+                .hero-subtext {
+                    margin: 25px 0;
+                    width: 80%;
+                }
+
+                .hero-button {
+                    margin: 0;
+                }
+
+            }
+        }
     }
 }

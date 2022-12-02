@@ -561,8 +561,31 @@ footer .footer-container .footer-inner .footer-social-icons img {
   header .header-container .nav-desktop ul li a:hover {
     color: #d87d4a;
   }
-  .hero {
-    position: relative;
+  .hero .hero-message {
+    width: 60%;
+    margin-top: 15%;
+    margin-left: 5%;
+  }
+  .hero .hero-message .hero-message-container {
+    text-align: left;
+    padding: 0;
+    margin: unset;
+  }
+  .hero .hero-message .hero-message-container .hero-sub-heading {
+    margin: 0;
+    margin-bottom: 15px;
+  }
+  .hero .hero-message .hero-message-container .hero-heading {
+    font-size: 56px;
+    line-height: 68px;
+    letter-spacing: 2px;
+  }
+  .hero .hero-message .hero-message-container .hero-subtext {
+    margin: 25px 0;
+    width: 80%;
+  }
+  .hero .hero-message .hero-message-container .hero-button {
+    margin: 0;
   }
 }
 
