@@ -189,7 +189,8 @@ header {
         background-color: #d87d4a;
         position: relative;
         border-radius: 8px;
-        max-height: 600px;
+        max-height: 720px;
+        height: 600px;
         width: 90vw;
 
         .bg-image {
@@ -225,7 +226,6 @@ header {
             flex-direction: column;
             align-items: center;
             text-align: center;
-
 
             .featured-product-heading {
                 color: #fff;
@@ -270,7 +270,7 @@ header {
         position: relative;
 
         .bg-image {
-            width: 90vw;
+            width: 100%;
 
             img {
                 border-radius: 8px;
@@ -318,7 +318,7 @@ header {
         position: relative;
 
         .bg-image {
-            width: 90vw;
+            width: 100%;
 
             img {
                 width: 100%;
