@@ -26,7 +26,7 @@ header {
   z-index: 99;
 }
 header .header-container {
-  width: 90%;
+  width: 100%;
   height: 95px;
   margin: auto;
   display: flex;
@@ -440,6 +440,9 @@ footer .footer-container .footer-inner .footer-social-icons svg:hover path {
 }
 
 @media screen and (min-width: 578px) and (max-width: 1017px) {
+  header .header-container {
+    width: 90%;
+  }
   .hero .hero-message {
     margin-top: 25%;
   }
@@ -569,6 +572,7 @@ footer .footer-container .footer-inner .footer-social-icons svg:hover path {
 }
 @media screen and (min-width: 1018px) {
   header .header-container {
+    width: 90%;
     padding: 35px 0;
   }
   header .header-container .hamburger-icon {
@@ -781,4 +785,4 @@ footer .footer-container .footer-inner .footer-social-icons svg:hover path {
   }
 }
 
-/*# sourceMappingURL=bundle.css.map */
+/*# sourceMappingURL=main.css.map */

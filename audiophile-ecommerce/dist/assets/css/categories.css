@@ -1,0 +1,18 @@
+header {
+  position: unset;
+  background-color: #000;
+}
+
+.category-heading-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #000;
+  height: 15vh;
+}
+.category-heading-container .heading {
+  color: #FFF;
+  text-transform: uppercase;
+}
+
+/*# sourceMappingURL=categories.css.map */

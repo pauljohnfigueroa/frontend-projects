@@ -1,0 +1,18 @@
+// Categories
+header {
+    position: unset;
+    background-color: #000;
+}
+
+.category-heading-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #000;
+    height: 15vh;
+
+    .heading {
+        color: #FFF;
+        text-transform: uppercase;
+    }
+}
