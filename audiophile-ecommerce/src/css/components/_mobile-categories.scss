@@ -23,7 +23,6 @@ header {
     margin-top: 40px;
 
     .product-card {
-
         width: 90%;
         margin: auto;
 
@@ -33,15 +32,19 @@ header {
             display: flex;
             align-items: center;
             justify-content: center;
+            min-height: 300px;
+            min-height: 350px;
 
             img {
-                width: 80%;
+                width: 60%;
             }
         }
 
         .product-card-description {
-            width: 90vw;
+            width: 90%;
             text-align: center;
+            margin: auto;
+
             display: flex;
             flex-direction: column;
             align-items: center;
