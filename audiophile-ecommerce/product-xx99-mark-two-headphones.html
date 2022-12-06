@@ -5,86 +5,105 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
-
-  <title>Frontend Mentor | Audiophile e-commerce website</title>
+  <link rel="icon" type="image/png" sizes="32x32" href="./dist/assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="./dist/assets/css/main.css">
+  <link rel="stylesheet" href="./dist/assets/css/categories.css">
+  <link rel="stylesheet" href="./dist/assets/css/product.css">
+  <title>Paul Figueroa</title>
 </head>
 
 <body>
-  Home
-  Headphones
-  Speakers
-  Earphones
+  <!-- Header -->
+  <header>
+    <div class="header-container">
+      <div class="hamburger-icon">
+        <img src="./dist/assets/images/shared/tablet/icon-hamburger.svg" alt="">
+      </div>
+      <div class="logo">
+        <img src="./dist/assets/images/shared/desktop/logo.svg" alt="">
+      </div>
+      <nav class="nav-desktop">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Speakers</a></li>
+          <li><a href="#">Headphones</a></li>
+          <li><a href="#">Earphones</a></li>
+        </ul>
+      </nav>
+      <div class="cart-icon">
+        <img src="./dist/assets/images/shared/desktop/icon-cart.svg" alt="">
+      </div>
+    </div>
+  </header>
+  <!-- Link -->
+  <section>
+    <a href="#">Go Back</a>
+  </section>
 
-  Go back
+  <!-- Product Card -->
+  <section class="product-section">
+    <div class="product-card">
+      <div class="product-card-header">
+        <img srcset="./dist/assets/images/product-xx99-mark-two-headphones/desktop/image-category-page-preview.jpg 1080w,
+        ./dist/assets/images/product-xx99-mark-two-headphones/mobile/image-category-page-preview-2.png 491w"
+          src="./dist/assets/images/product-xx99-mark-two-headphones/desktop/image-category-page-preview.jpg" alt="">
+      </div>
+      <div class="product-card-description">
+        <p class="sub-heading">NEW PRODUCT</p>
+        <h2 class="heading">XX99 Mark II Headphones</h2>
+        <p class="sub-text">The new XX99 Mark II headphones is the pinnacle of pristine audio. It redefines your premium
+          headphone experience by reproducing the balanced depth and precision of studio-quality sound.</p>
+      </div>
+      <div class="product-form">
+        <p class="price">$1,200</p>
+        <form action="#">
+          <input type="number" class="quantity" />
+          <button type="button" class="form-button">Add to Cart</button>
+        </form>
+      </div>
+    </div>
+  </section>
 
-  New product
+  <!-- Product - Features -->
+  <section class="features">
+    <h2>Features</h2>
+    <p>Featuring a genuine leather head strap and premium earcups, these headphones deliver superior comfort for those
+      who like to enjoy endless listening. It includes intuitive controls designed for any situation. Whether you’re
+      taking a business call or just in your own personal space, the auto on/off and pause features ensure that you’ll
+      never miss a beat.</p>
+    <p>The advanced Active Noise Cancellation with built-in equalizer allow you to experience your audio world on your
+      terms. It lets you enjoy your audio in peace, but quickly interact with your surroundings when you need to.
+      Combined with Bluetooth 5. 0 compliant connectivity and 17 hour battery life, the XX99 Mark II headphones gives
+      you superior sound, cutting-edge technology, and a modern design aesthetic.</p>
+  </section>
 
-  XX99 Mark II Headphones
-  The new XX99 Mark II headphones is the pinnacle of pristine audio. It redefines your 
-  premium headphone experience by reproducing the balanced depth and precision of 
-  studio-quality sound.
+  <!-- Product - What's Included -->
+  <section class="in-the-box">
+    <h2>In the box</h2>
+    <ul>
+      <li>
+        <p>1x</p>
+        <p>Headphone Unit</p>
+      </li>
+      <li>
+        <p>2x</p>
+        <p>Replacement Earcups</p>
+      </li>
+      <li>
+        <p>1x</p>
+        <p>User Manual</p>
+      </li>
+      <li>
+        <p>1x</p>
+        <p>3.5mm 5m Audio Cable</p>
+      </li>
+      <li>
+        <p>1x</p>
+        <p>Travel Bag</p>
+      </li>
+    </ul>
 
-  $2,999
-  1
-  Add to cart
-
-  Features
-  Featuring a genuine leather head strap and premium earcups, these headphones deliver superior 
-  comfort for those who like to enjoy endless listening. It includes intuitive controls designed 
-  for any situation. Whether you’re taking a business call or just in your own personal space, the 
-  auto on/off and pause features ensure that you’ll never miss a beat.
-
-  The advanced Active Noise Cancellation with built-in equalizer allow you to experience your audio 
-  world on your terms. It lets you enjoy your audio in peace, but quickly interact with your surroundings 
-  when you need to. Combined with Bluetooth 5. 0 compliant connectivity and 17 hour battery life, the 
-  XX99 Mark II headphones gives you superior sound, cutting-edge technology, and a modern design aesthetic.
-
-  In the box
-
-  1x Headphone unit
-  2x Replacement earcups
-  1x User manual
-  1x 3.5mm 5m audio cable
-  1x Travel bag
-
-  You may also like
-
-  XX99 Mark I
-  See product
-
-  XX59
-  See product
-
-  ZX9 speaker
-  See product
-
-  Headphones
-  Shop
-  
-  Speakers
-  Shop
-  
-  Earphones
-  Shop
-
-  Bringing you the best audio gear
-  Located at the heart of New York City, Audiophile is the premier store for high end headphones,
-  earphones, speakers, and audio accessories. We have a large showroom and luxury demonstration
-  rooms available for you to browse and experience a wide range of our products. Stop by our store
-  to meet some of the fantastic people who make Audiophile the best place to buy your portable
-  audio equipment.
-
-  Home
-  Headphones
-  Speakers
-  Earphones
-
-  Audiophile is an all in one stop to fulfill your audio needs. We're a small team of music lovers
-  and sound specialists who are devoted to helping you get the most out of personal audio. Come and
-  visit our demo facility - we’re open 7 days a week.
-
-  Copyright 2021. All Rights Reserved
+  </section>
 </body>
 
 </html>
