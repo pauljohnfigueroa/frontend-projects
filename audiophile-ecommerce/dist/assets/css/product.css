@@ -95,11 +95,11 @@
   color: #D87D4A;
   font-weight: 700;
   width: 10%;
-  margin: 10px 0;
+  margin: 5px 0;
 }
 .in-the-box ul li .description {
   color: rgba(0, 0, 0, 0.5);
-  margin: 10px 0;
+  margin: 5px 0;
 }
 
 .product-suggestions {
@@ -144,6 +144,21 @@
   letter-spacing: 1px;
   border: none;
   padding: 10px 20px;
+}
+
+.gallery {
+  width: 100vw;
+  margin-top: 50px;
+}
+.gallery .gallery-card {
+  width: 90%;
+  height: auto;
+  margin: 20px auto;
+}
+.gallery .gallery-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
 }
 
 /*# sourceMappingURL=product.css.map */
