@@ -267,10 +267,18 @@ header .header-container {
   }
   .product-suggestions .product-suggestions-cards .suggestion-card .suggestion-card-header {
     padding: 40px 20px;
+    display: flex;
+    height: 70%;
   }
-  .product-suggestions .product-suggestions-cards .suggestion-card .suggestion-card-header img {
+  .product-suggestions .product-suggestions-cards .suggestion-card .suggestion-card-header .image-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .product-suggestions .product-suggestions-cards .suggestion-card .suggestion-card-header .image-container img {
     border-radius: 8px;
     width: 80%;
+    height: auto;
     padding: 10px 0;
   }
 }
