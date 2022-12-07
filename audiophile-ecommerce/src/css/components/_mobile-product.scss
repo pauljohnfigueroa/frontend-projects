@@ -1,0 +1,128 @@
+/* Produc - Mobile */
+.go-back-link {
+    width: 90vw;
+    margin: 15px auto;
+
+    a {
+        font-size: 15px;
+        font-size: 500;
+        line-height: 25px;
+        color: rgba(0, 0, 0, .5);
+
+        &:hover {
+            color: #D87D4A;
+        }
+    }
+}
+
+.product-section {
+    margin-top: 15px;
+
+    .product-card {
+        .product-card-description {
+            text-align: left;
+            width: 100%;
+
+            align-items: unset;
+
+            .heading {
+                font-size: 28px;
+                letter-spacing: 1px;
+                width: 80%
+            }
+
+            .sub-text {
+                margin: 0;
+            }
+
+        }
+
+        .product-form {
+            margin: 20px 0;
+
+            .price {
+                font-size: 18px;
+                font-weight: 700;
+                letter-spacing: 1.3px;
+                margin: 10px 0;
+            }
+
+            form {
+                margin: 10px 0;
+                display: flex;
+
+                input {
+                    width: 50px;
+                }
+
+                button {
+                    background-color: #D87D4A;
+                    color: white;
+                    text-transform: uppercase;
+                    font-size: 13px;
+                    font-weight: 700;
+                    letter-spacing: 1px;
+                    border: none;
+                    padding: 10px 20px;
+
+                }
+            }
+        }
+
+    }
+}
+
+.product-features {
+    width: 90vw;
+    margin: 0 auto;
+
+    h2 {
+        color: black;
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 36px;
+        text-transform: uppercase;
+        margin-top: 20px;
+    }
+
+    p {
+        color: rgba(0, 0, 0, .5);
+        font-size: 15px;
+        line-height: 25px;
+        margin-top: 20px;
+    }
+}
+
+.in-the-box {
+    width: 90vw;
+    margin: auto;
+
+    h2 {
+        margin: 20px 0;
+        text-transform: uppercase;
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 36px;
+    }
+
+    ul {
+
+        li {
+            display: flex;
+            font-size: 15px;
+            line-height: 25px;
+
+            .quantity {
+                color: #D87D4A;
+                font-weight: 700;
+                width: 10%;
+                margin: 10px 0;
+            }
+
+            .description {
+                color: rgba(0, 0, 0, .5);
+                margin: 10px 0;
+            }
+        }
+    }
+}
