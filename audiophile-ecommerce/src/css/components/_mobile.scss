@@ -4,16 +4,16 @@ header {
     position: absolute;
     background-color: #131313;
     color: #fff;
-    width: 100vw;
+    width: 100%;
     z-index: 99;
 
     .header-container {
-        width: 100%;
+        width: 90%;
         height: 95px;
         margin: auto;
         display: flex;
         justify-content: space-between;
-        padding: 25px 20px;
+        padding: 25px 0;
         border-bottom: 1px solid #979797;
 
         .hamburger-icon {
@@ -120,8 +120,8 @@ header {
         display: flex;
         flex-direction: column;
         align-items: center;
-        width: 100vw;
-        margin-top: 100px;
+        width: 100%;
+        margin-top: 30px;
 
         .category-card {
             background-color: #f1f1f1;

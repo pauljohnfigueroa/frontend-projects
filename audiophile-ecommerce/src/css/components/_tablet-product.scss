@@ -1,0 +1,41 @@
+/* Products - Tablet */
+@media screen and (min-width: 578px) and (max-width: 1017px) {
+
+    .product-section {
+
+        .product-card {
+            display: flex;
+            justify-content: space-between;
+
+            .product-card-header {
+                width: 40%;
+            }
+
+            .product-card-description-container {
+                width: 50%;
+
+                .product-card-description {
+
+                    .heading {
+                        line-height: 32px;
+                    }
+                }
+            }
+        }
+    }
+
+    .in-the-box {
+        display: flex;
+        align-items: flex-start;
+
+        h2 {
+            margin: 0;
+            width: 50%;
+        }
+
+        ul {
+            width: 50%;
+        }
+    }
+
+}

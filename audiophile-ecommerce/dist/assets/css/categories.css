@@ -18,7 +18,7 @@ header {
 }
 
 .product-section {
-  width: 100vw;
+  width: 100%;
   margin-top: 40px;
 }
 .product-section .product-card,
@@ -40,8 +40,8 @@ header {
 .product-section .product-card-reversed .product-card-header img {
   width: 60%;
 }
-.product-section .product-card .product-card-description,
-.product-section .product-card-reversed .product-card-description {
+.product-section .product-card .product-card-description-container .product-card-description,
+.product-section .product-card-reversed .product-card-description-container .product-card-description {
   width: 90%;
   text-align: center;
   margin: auto;
@@ -50,16 +50,16 @@ header {
   align-items: center;
   justify-content: center;
 }
-.product-section .product-card .product-card-description .sub-heading,
-.product-section .product-card-reversed .product-card-description .sub-heading {
+.product-section .product-card .product-card-description-container .product-card-description .sub-heading,
+.product-section .product-card-reversed .product-card-description-container .product-card-description .sub-heading {
   font-size: 14px;
   letter-spacing: 10px;
   color: #d87d4a;
   text-transform: uppercase;
   margin-top: 20px;
 }
-.product-section .product-card .product-card-description .heading,
-.product-section .product-card-reversed .product-card-description .heading {
+.product-section .product-card .product-card-description-container .product-card-description .heading,
+.product-section .product-card-reversed .product-card-description-container .product-card-description .heading {
   font-size: 21px;
   font-weight: 700;
   letter-spacing: 1px;
@@ -68,15 +68,15 @@ header {
   width: 80%;
   margin: 20px 0;
 }
-.product-section .product-card .product-card-description .sub-text,
-.product-section .product-card-reversed .product-card-description .sub-text {
+.product-section .product-card .product-card-description-container .product-card-description .sub-text,
+.product-section .product-card-reversed .product-card-description-container .product-card-description .sub-text {
   color: rgba(0, 0, 0, 0.5);
   font-size: 15px;
   line-height: 25px;
   margin: 10px 0;
 }
-.product-section .product-card .product-card-description .button,
-.product-section .product-card-reversed .product-card-description .button {
+.product-section .product-card .product-card-description-container .product-card-description .button,
+.product-section .product-card-reversed .product-card-description-container .product-card-description .button {
   background-color: #D87D4A;
   font-size: 13px;
   font-weight: 700;
