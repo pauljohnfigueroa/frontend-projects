@@ -174,62 +174,8 @@ header {
     }
 }
 
-.product-suggestions {
-    width: 100%;
-    margin-top: 80px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-
-    .heading {
-
-        font-size: 24px;
-        line-height: 36px;
-        text-transform: uppercase;
-    }
-
-    .suggestion-card {
-        border-radius: 8px;
-        width: 90%;
-        margin: 30px 0;
-
-        .suggestion-card-header {
-            img {
-                border-radius: 8px;
-                width: 100%;
-            }
-        }
-
-        .title {
-            text-align: center;
-            font-size: 24px;
-            line-height: 36px;
-            letter-spacing: 1.7px;
-            margin: 30px 0;
-        }
-
-        .suggestion-link {
-            text-align: center;
-            margin: 10px 0;
-
-            a {
-                background-color: #D87D4A;
-                color: white;
-                text-transform: uppercase;
-                font-size: 13px;
-                font-weight: 700;
-                letter-spacing: 1px;
-                border: none;
-                padding: 10px 20px;
-            }
-        }
-    }
-
-}
 
 .gallery {
-
     width: 100%;
     margin-top: 50px;
 
@@ -244,18 +190,65 @@ header {
             padding: 5px 0;
         }
     }
+}
 
-    // .gallery-card {
-    //     border: 1px dashed red;
-    //     width: 90%;
-    //     height: auto;
-    //     margin: 20px auto;
 
-    //     img {
-    //         width: 100%;
-    //         height: auto;
-    //         border-radius: 8px;
-    //     }
-    // }
+.product-suggestions {
+    width: 100%;
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    .heading {
+        font-size: 24px;
+        line-height: 36px;
+        text-transform: uppercase;
+    }
+
+    .product-suggestions-cards {
+        width: 90%;
+
+        .suggestion-card {
+            margin: 30px 0;
+
+            .suggestion-card-header {
+                background-color: #f1f1f1;
+                text-align: center;
+                border-radius: 8px;
+
+                img {
+                    border-radius: 8px;
+                    width: 20%;
+                    padding: 10px 0;
+                }
+            }
+
+            .title {
+                text-align: center;
+                font-size: 24px;
+                line-height: 36px;
+                letter-spacing: 1.7px;
+                margin: 30px 0;
+            }
+
+            .suggestion-link {
+                text-align: center;
+                margin: 10px 0;
+
+                a {
+                    background-color: #D87D4A;
+                    color: white;
+                    text-transform: uppercase;
+                    font-size: 13px;
+                    font-weight: 700;
+                    letter-spacing: 1px;
+                    border: none;
+                    padding: 10px 20px;
+                }
+            }
+        }
+    }
 
 }

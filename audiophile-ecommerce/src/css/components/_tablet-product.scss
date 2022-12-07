@@ -41,6 +41,7 @@
     .gallery {
         width: 90%;
         margin: auto;
+
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -74,10 +75,28 @@
                 }
             }
         }
+    }
 
+    .product-suggestions {
 
+        .product-suggestions-cards {
+            display: flex;
+            justify-content: space-between;
 
+            .suggestion-card {
+                width: 32%;
 
+                .suggestion-card-header {
+                    padding: 40px 20px;
+
+                    img {
+                        border-radius: 8px;
+                        width: 80%;
+                        padding: 10px 0;
+                    }
+                }
+            }
+        }
 
     }
 

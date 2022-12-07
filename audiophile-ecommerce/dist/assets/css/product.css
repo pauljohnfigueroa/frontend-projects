@@ -138,50 +138,6 @@ header .header-container {
   color: rgba(0, 0, 0, 0.5);
 }
 
-.product-suggestions {
-  width: 100%;
-  margin-top: 80px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-.product-suggestions .heading {
-  font-size: 24px;
-  line-height: 36px;
-  text-transform: uppercase;
-}
-.product-suggestions .suggestion-card {
-  border-radius: 8px;
-  width: 90%;
-  margin: 30px 0;
-}
-.product-suggestions .suggestion-card .suggestion-card-header img {
-  border-radius: 8px;
-  width: 100%;
-}
-.product-suggestions .suggestion-card .title {
-  text-align: center;
-  font-size: 24px;
-  line-height: 36px;
-  letter-spacing: 1.7px;
-  margin: 30px 0;
-}
-.product-suggestions .suggestion-card .suggestion-link {
-  text-align: center;
-  margin: 10px 0;
-}
-.product-suggestions .suggestion-card .suggestion-link a {
-  background-color: #D87D4A;
-  color: white;
-  text-transform: uppercase;
-  font-size: 13px;
-  font-weight: 700;
-  letter-spacing: 1px;
-  border: none;
-  padding: 10px 20px;
-}
-
 .gallery {
   width: 100%;
   margin-top: 50px;
@@ -196,6 +152,57 @@ header .header-container {
   width: 100%;
   border-radius: 8px;
   padding: 5px 0;
+}
+
+.product-suggestions {
+  width: 100%;
+  margin-top: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.product-suggestions .heading {
+  font-size: 24px;
+  line-height: 36px;
+  text-transform: uppercase;
+}
+.product-suggestions .product-suggestions-cards {
+  width: 90%;
+}
+.product-suggestions .product-suggestions-cards .suggestion-card {
+  margin: 30px 0;
+}
+.product-suggestions .product-suggestions-cards .suggestion-card .suggestion-card-header {
+  background-color: #f1f1f1;
+  text-align: center;
+  border-radius: 8px;
+}
+.product-suggestions .product-suggestions-cards .suggestion-card .suggestion-card-header img {
+  border-radius: 8px;
+  width: 20%;
+  padding: 10px 0;
+}
+.product-suggestions .product-suggestions-cards .suggestion-card .title {
+  text-align: center;
+  font-size: 24px;
+  line-height: 36px;
+  letter-spacing: 1.7px;
+  margin: 30px 0;
+}
+.product-suggestions .product-suggestions-cards .suggestion-card .suggestion-link {
+  text-align: center;
+  margin: 10px 0;
+}
+.product-suggestions .product-suggestions-cards .suggestion-card .suggestion-link a {
+  background-color: #D87D4A;
+  color: white;
+  text-transform: uppercase;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  border: none;
+  padding: 10px 20px;
 }
 
 /* Products - Tablet */
@@ -250,6 +257,21 @@ header .header-container {
   .gallery .horizontal-group .gallery-card-hor img {
     width: 100%;
     padding: 2.5px 5px;
+  }
+  .product-suggestions .product-suggestions-cards {
+    display: flex;
+    justify-content: space-between;
+  }
+  .product-suggestions .product-suggestions-cards .suggestion-card {
+    width: 32%;
+  }
+  .product-suggestions .product-suggestions-cards .suggestion-card .suggestion-card-header {
+    padding: 40px 20px;
+  }
+  .product-suggestions .product-suggestions-cards .suggestion-card .suggestion-card-header img {
+    border-radius: 8px;
+    width: 80%;
+    padding: 10px 0;
   }
 }
 
