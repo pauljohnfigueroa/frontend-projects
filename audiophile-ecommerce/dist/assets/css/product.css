@@ -186,15 +186,16 @@ header .header-container {
   width: 100%;
   margin-top: 50px;
 }
-.gallery .gallery-card {
+.gallery .vertical-group,
+.gallery .horizontal-group {
   width: 90%;
-  height: auto;
-  margin: 20px auto;
+  margin: auto;
 }
-.gallery .gallery-card img {
+.gallery .vertical-group img,
+.gallery .horizontal-group img {
   width: 100%;
-  height: auto;
   border-radius: 8px;
+  padding: 5px 0;
 }
 
 /* Products - Tablet */
@@ -222,6 +223,33 @@ header .header-container {
   }
   .in-the-box ul {
     width: 50%;
+  }
+  .gallery {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+  }
+  .gallery .vertical-group {
+    width: 42%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .gallery .vertical-group .gallery-card-vert img {
+    width: 100%;
+    padding: 2.5px 5px;
+  }
+  .gallery .horizontal-group {
+    width: 58%;
+    height: 100%;
+    display: flex;
+  }
+  .gallery .horizontal-group .gallery-card-hor img {
+    width: 100%;
+    padding: 2.5px 5px;
   }
 }
 
