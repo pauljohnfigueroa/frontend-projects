@@ -1,25 +1,25 @@
-.checkout-form h2 {
+.checkout .checkout-form h2 {
   font-size: 28px;
   letter-spacing: 1px;
   text-transform: uppercase;
   width: 90%;
   margin: 30px auto;
 }
-.checkout-form form {
+.checkout .checkout-form form {
   display: flex;
   flex-direction: column;
 }
-.checkout-form form .billing-details,
-.checkout-form form .shipping-info,
-.checkout-form form .payment-details {
+.checkout .checkout-form form .billing-details,
+.checkout .checkout-form form .shipping-info,
+.checkout .checkout-form form .payment-details {
   border: none;
   margin: 0 auto;
   padding-top: 20px;
   width: 90%;
 }
-.checkout-form form .billing-details legend,
-.checkout-form form .shipping-info legend,
-.checkout-form form .payment-details legend {
+.checkout .checkout-form form .billing-details legend,
+.checkout .checkout-form form .shipping-info legend,
+.checkout .checkout-form form .payment-details legend {
   color: #d87d4a;
   font-size: 13px;
   font-weight: 700;
@@ -27,22 +27,22 @@
   line-height: 25px;
   text-transform: uppercase;
 }
-.checkout-form form .billing-details .text-input,
-.checkout-form form .shipping-info .text-input,
-.checkout-form form .payment-details .text-input {
+.checkout .checkout-form form .billing-details .text-input,
+.checkout .checkout-form form .shipping-info .text-input,
+.checkout .checkout-form form .payment-details .text-input {
   display: flex;
   flex-direction: column;
 }
-.checkout-form form .billing-details .text-input label,
-.checkout-form form .shipping-info .text-input label,
-.checkout-form form .payment-details .text-input label {
+.checkout .checkout-form form .billing-details .text-input label,
+.checkout .checkout-form form .shipping-info .text-input label,
+.checkout .checkout-form form .payment-details .text-input label {
   font-size: 12px;
   font-weight: 700;
   margin-bottom: 10px;
 }
-.checkout-form form .billing-details .text-input input,
-.checkout-form form .shipping-info .text-input input,
-.checkout-form form .payment-details .text-input input {
+.checkout .checkout-form form .billing-details .text-input input,
+.checkout .checkout-form form .shipping-info .text-input input,
+.checkout .checkout-form form .payment-details .text-input input {
   border: 1px solid #cfcfcf;
   border-radius: 8px;
   height: 56px;
@@ -50,18 +50,18 @@
   padding: 5px 25px;
   margin-bottom: 25px;
 }
-.checkout-form form .billing-details .radio-group,
-.checkout-form form .shipping-info .radio-group,
-.checkout-form form .payment-details .radio-group {
+.checkout .checkout-form form .billing-details .radio-group,
+.checkout .checkout-form form .shipping-info .radio-group,
+.checkout .checkout-form form .payment-details .radio-group {
   width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 }
-.checkout-form form .billing-details .radio-group .radio-item,
-.checkout-form form .shipping-info .radio-group .radio-item,
-.checkout-form form .payment-details .radio-group .radio-item {
+.checkout .checkout-form form .billing-details .radio-group .radio-item,
+.checkout .checkout-form form .shipping-info .radio-group .radio-item,
+.checkout .checkout-form form .payment-details .radio-group .radio-item {
   border: 1px solid #cfcfcf;
   border-radius: 8px;
   width: 100%;
@@ -70,73 +70,110 @@
   margin-top: 15px;
   text-align: left;
 }
-.checkout-form form .billing-details .radio-group .radio-item label,
-.checkout-form form .shipping-info .radio-group .radio-item label,
-.checkout-form form .payment-details .radio-group .radio-item label {
+.checkout .checkout-form form .billing-details .radio-group .radio-item label,
+.checkout .checkout-form form .shipping-info .radio-group .radio-item label,
+.checkout .checkout-form form .payment-details .radio-group .radio-item label {
   width: 85%;
 }
-.checkout-form form .billing-details .radio-group .radio-item input[type=radio],
-.checkout-form form .shipping-info .radio-group .radio-item input[type=radio],
-.checkout-form form .payment-details .radio-group .radio-item input[type=radio] {
+.checkout .checkout-form form .billing-details .radio-group .radio-item input[type=radio],
+.checkout .checkout-form form .shipping-info .radio-group .radio-item input[type=radio],
+.checkout .checkout-form form .payment-details .radio-group .radio-item input[type=radio] {
   width: 15%;
   height: 20px;
   vertical-align: middle;
 }
-.checkout-form form .billing-details .radio-group .radio-item input[type=radio]:checked,
-.checkout-form form .shipping-info .radio-group .radio-item input[type=radio]:checked,
-.checkout-form form .payment-details .radio-group .radio-item input[type=radio]:checked {
+.checkout .checkout-form form .billing-details .radio-group .radio-item input[type=radio]:checked,
+.checkout .checkout-form form .shipping-info .radio-group .radio-item input[type=radio]:checked,
+.checkout .checkout-form form .payment-details .radio-group .radio-item input[type=radio]:checked {
   accent-color: #d87d4a;
 }
-.checkout-form form .billing-details .radio-group .radio-item:last-child,
-.checkout-form form .shipping-info .radio-group .radio-item:last-child,
-.checkout-form form .payment-details .radio-group .radio-item:last-child {
+.checkout .checkout-form form .billing-details .radio-group .radio-item:last-child,
+.checkout .checkout-form form .shipping-info .radio-group .radio-item:last-child,
+.checkout .checkout-form form .payment-details .radio-group .radio-item:last-child {
   margin-bottom: 30px;
 }
-
-.checkout-summary .heading {
+.checkout .checkout-summary .heading {
   width: 90%;
   margin: 30px auto;
 }
-.checkout-summary .item-row {
+.checkout .checkout-summary .item-row {
   display: flex;
   width: 90%;
   margin: 30px auto;
 }
-.checkout-summary .item-row .item-image-container {
+.checkout .checkout-summary .item-row .item-image-container {
   background-color: #cfcfcf;
   border-radius: 8px;
-  width: 20%;
+  min-width: 64px;
+  width: 64px;
 }
-.checkout-summary .item-row .item-image-container img {
+.checkout .checkout-summary .item-row .item-image-container img {
   width: 100%;
   height: auto;
 }
-.checkout-summary .item-row .item-details {
+.checkout .checkout-summary .item-row .item-details {
   display: flex;
-  width: 80%;
+  width: 100%;
 }
-.checkout-summary .item-row .item-details .item-title-price {
+.checkout .checkout-summary .item-row .item-details .item-title-price {
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
   width: 80%;
 }
-.checkout-summary .item-row .item-details .item-title,
-.checkout-summary .item-row .item-details .item-price,
-.checkout-summary .item-row .item-details .item-count {
+.checkout .checkout-summary .item-row .item-details .item-title,
+.checkout .checkout-summary .item-row .item-details .item-price {
   font-size: 15px;
   font-weight: 700;
   line-height: 25px;
   margin: 3px 20px;
 }
-.checkout-summary .item-row .item-details .item-title {
+.checkout .checkout-summary .item-row .item-details .item-title {
   color: black;
 }
-.checkout-summary .item-row .item-details .item-price,
-.checkout-summary .item-row .item-details .item-count {
+.checkout .checkout-summary .item-row .item-details .item-price,
+.checkout .checkout-summary .item-row .item-details .item-count {
   color: rgba(0, 0, 0, 0.5);
 }
-.checkout-summary .item-row .item-details .item-count {
+.checkout .checkout-summary .item-row .item-details .item-count {
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 25px;
+  text-align: right;
   width: 20%;
+}
+.checkout .checkout-summary .price-details .price-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 90%;
+  margin: 10px auto;
+}
+.checkout .checkout-summary .price-details .label {
+  width: 50%;
+  font-size: 15px;
+  color: rgba(0, 0, 0, 0.5);
+  text-transform: uppercase;
+}
+.checkout .checkout-summary .price-details .price {
+  width: 50%;
+  text-align: right;
+  font-size: 18px;
+  font-weight: 700;
+}
+.checkout .checkout-summary .button-container {
+  width: 90%;
+  margin: 40px auto;
+}
+.checkout .checkout-summary .button-container button {
+  background-color: #d87d4a;
+  border: none;
+  font-size: 13px;
+  font-size: 700;
+  text-transform: uppercase;
+  color: white;
+  width: 100%;
+  min-height: 48px;
 }
 
 /*# sourceMappingURL=checkout.css.map */
