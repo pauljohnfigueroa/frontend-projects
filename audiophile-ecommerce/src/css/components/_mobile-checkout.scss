@@ -1,0 +1,88 @@
+.checkout-form {
+
+    h2 {
+        font-size: 28px;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        width: 90%;
+        margin: 30px auto;
+    }
+
+    form {
+        display: flex;
+        flex-direction: column;
+
+        .billing-details,
+        .shipping-info,
+        .payment-details {
+            border: none;
+            margin: 0 auto;
+            padding-top: 20px;
+            width: 90%;
+
+            legend {
+                color: #d87d4a;
+                font-size: 13px;
+                font-weight: 700;
+                letter-spacing: .9px;
+                line-height: 25px;
+                text-transform: uppercase;
+            }
+
+            .text-input {
+                display: flex;
+                flex-direction: column;
+
+                label {
+                    font-size: 12px;
+                    font-weight: 700;
+                    margin-bottom: 10px;
+                }
+
+                input {
+                    border: 1px solid #cfcfcf;
+                    border-radius: 8px;
+                    height: 56px;
+                    font-size: 14px;
+                    padding: 5px 25px;
+                    margin-bottom: 25px;
+                }
+            }
+
+            .radio-group {
+                // border: 1px dashed red;
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+
+                .radio-item {
+                    border: 1px solid #cfcfcf;
+                    border-radius: 8px;
+                    width: 100%;
+                    padding: 20px 0;
+                    margin-left: 0;
+                    margin-top: 15px;
+                    text-align: left;
+
+                    label {
+                        width: 85%;
+                    }
+
+                    input[type=radio] {
+                        width: 15%;
+                        height: 20px;
+                        vertical-align: middle;
+
+                        &:checked {
+                            background-color: #d87d4a;
+                        }
+                    }
+
+                }
+
+            }
+        }
+    }
+}
