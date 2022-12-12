@@ -125,19 +125,21 @@ header {
     width: 50%;
     margin-right: 20px;
   }
-  .product-section .product-card .product-card-description {
-    text-align: left;
+  .product-section .product-card .product-card-description-container {
     width: 50%;
     padding: 0 50px;
+  }
+  .product-section .product-card .product-card-description-container .product-card-description {
+    text-align: left;
     display: unset;
     flex-direction: unset;
     align-items: unset;
     justify-content: unset;
   }
-  .product-section .product-card .product-card-description .heading {
+  .product-section .product-card .product-card-description-container .product-card-description .heading {
     width: 40%;
   }
-  .product-section .product-card .product-card-description .sub-text {
+  .product-section .product-card .product-card-description-container .product-card-description .sub-text {
     width: 90%;
   }
   .product-section .product-card-reversed {
@@ -149,22 +151,24 @@ header {
     width: 50%;
     margin-left: 20px;
   }
-  .product-section .product-card-reversed .product-card-description {
-    text-align: right;
+  .product-section .product-card-reversed .product-card-description-container {
     width: 50%;
     padding: 0 50px;
+  }
+  .product-section .product-card-reversed .product-card-description-container .product-card-description {
+    text-align: left;
     display: unset;
     flex-direction: unset;
     align-items: unset;
     justify-content: unset;
   }
-  .product-section .product-card-reversed .product-card-description .heading {
+  .product-section .product-card-reversed .product-card-description-container .product-card-description .heading {
     width: 100%;
-    text-align: right;
+    text-align: left;
   }
-  .product-section .product-card-reversed .product-card-description .sub-text {
+  .product-section .product-card-reversed .product-card-description-container .product-card-description .sub-text {
     width: 100%;
-    text-align: right;
+    text-align: left;
   }
 }
 

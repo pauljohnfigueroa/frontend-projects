@@ -18,22 +18,24 @@
                 margin-right: 20px;
             }
 
-            .product-card-description {
-                text-align: left;
+            .product-card-description-container {
                 width: 50%;
                 padding: 0 50px;
 
-                display: unset;
-                flex-direction: unset;
-                align-items: unset;
-                justify-content: unset;
+                .product-card-description {
+                    text-align: left;
+                    display: unset;
+                    flex-direction: unset;
+                    align-items: unset;
+                    justify-content: unset;
 
-                .heading {
-                    width: 40%;
-                }
+                    .heading {
+                        width: 40%;
+                    }
 
-                .sub-text {
-                    width: 90%;
+                    .sub-text {
+                        width: 90%;
+                    }
                 }
             }
 
@@ -49,24 +51,27 @@
                 margin-left: 20px;
             }
 
-            .product-card-description {
-                text-align: right;
+            .product-card-description-container {
                 width: 50%;
                 padding: 0 50px;
 
-                display: unset;
-                flex-direction: unset;
-                align-items: unset;
-                justify-content: unset;
+                .product-card-description {
+                    text-align: left;
 
-                .heading {
-                    width: 100%;
-                    text-align: right;
-                }
+                    display: unset;
+                    flex-direction: unset;
+                    align-items: unset;
+                    justify-content: unset;
 
-                .sub-text {
-                    width: 100%;
-                    text-align: right;
+                    .heading {
+                        width: 100%;
+                        text-align: left;
+                    }
+
+                    .sub-text {
+                        width: 100%;
+                        text-align: left;
+                    }
                 }
             }
 

@@ -636,6 +636,7 @@ footer .footer-container .footer-inner .footer-social-icons svg:hover path {
     flex-direction: row;
     justify-content: space-between;
     width: 100%;
+    margin-top: 100px;
   }
   .categories-section .categories-card-container .category-card {
     width: 32%;
