@@ -85,7 +85,58 @@
 .checkout-form form .billing-details .radio-group .radio-item input[type=radio]:checked,
 .checkout-form form .shipping-info .radio-group .radio-item input[type=radio]:checked,
 .checkout-form form .payment-details .radio-group .radio-item input[type=radio]:checked {
-  background-color: #d87d4a;
+  accent-color: #d87d4a;
+}
+.checkout-form form .billing-details .radio-group .radio-item:last-child,
+.checkout-form form .shipping-info .radio-group .radio-item:last-child,
+.checkout-form form .payment-details .radio-group .radio-item:last-child {
+  margin-bottom: 30px;
+}
+
+.checkout-summary .heading {
+  width: 90%;
+  margin: 30px auto;
+}
+.checkout-summary .item-row {
+  display: flex;
+  width: 90%;
+  margin: 30px auto;
+}
+.checkout-summary .item-row .item-image-container {
+  background-color: #cfcfcf;
+  border-radius: 8px;
+  width: 20%;
+}
+.checkout-summary .item-row .item-image-container img {
+  width: 100%;
+  height: auto;
+}
+.checkout-summary .item-row .item-details {
+  display: flex;
+  width: 80%;
+}
+.checkout-summary .item-row .item-details .item-title-price {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+}
+.checkout-summary .item-row .item-details .item-title,
+.checkout-summary .item-row .item-details .item-price,
+.checkout-summary .item-row .item-details .item-count {
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 25px;
+  margin: 3px 20px;
+}
+.checkout-summary .item-row .item-details .item-title {
+  color: black;
+}
+.checkout-summary .item-row .item-details .item-price,
+.checkout-summary .item-row .item-details .item-count {
+  color: rgba(0, 0, 0, 0.5);
+}
+.checkout-summary .item-row .item-details .item-count {
+  width: 20%;
 }
 
 /*# sourceMappingURL=checkout.css.map */
