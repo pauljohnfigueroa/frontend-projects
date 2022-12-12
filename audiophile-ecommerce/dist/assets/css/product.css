@@ -93,11 +93,14 @@ header .header-container {
   margin: 0 10px;
 }
 
-.product-features {
+.product-features-container {
   width: 90%;
+  margin: auto;
+}
+.product-features-container .product-features {
   margin: 50px auto;
 }
-.product-features h2 {
+.product-features-container .product-features h2 {
   color: black;
   font-size: 24px;
   font-weight: 700;
@@ -105,36 +108,34 @@ header .header-container {
   text-transform: uppercase;
   margin-top: 20px;
 }
-.product-features p {
+.product-features-container .product-features p {
   color: rgba(0, 0, 0, 0.5);
   font-size: 15px;
   line-height: 25px;
   margin-top: 20px;
 }
-
-.in-the-box {
-  width: 90%;
+.product-features-container .in-the-box {
   margin: 50px auto;
 }
-.in-the-box h2 {
+.product-features-container .in-the-box h2 {
   margin: 20px 0;
   text-transform: uppercase;
   font-size: 24px;
   font-weight: 700;
   line-height: 36px;
 }
-.in-the-box ul li {
+.product-features-container .in-the-box ul li {
   display: flex;
   font-size: 15px;
   line-height: 25px;
   margin: 5px 0;
 }
-.in-the-box ul li .quantity {
+.product-features-container .in-the-box ul li .quantity {
   color: #D87D4A;
   font-weight: 700;
   width: 10%;
 }
-.in-the-box ul li .description {
+.product-features-container .in-the-box ul li .description {
   color: rgba(0, 0, 0, 0.5);
 }
 
@@ -220,17 +221,20 @@ header .header-container {
   .product-section .product-card .product-card-description-container .product-card-description .heading {
     line-height: 32px;
   }
-  .in-the-box {
+  .product-features-container .in-the-box {
     display: flex;
     align-items: flex-start;
   }
-  .in-the-box h2 {
+  .product-features-container .in-the-box h2 {
     margin: 0;
     width: 50%;
   }
-  .in-the-box ul {
+  .product-features-container .in-the-box ul {
     width: 50%;
   }
+}
+/* Common for tablet and desktop */
+@media screen and (min-width: 578px) {
   .gallery {
     width: 90%;
     margin: auto;
@@ -280,6 +284,38 @@ header .header-container {
     width: 80%;
     height: auto;
     padding: 10px 0;
+  }
+}
+/* Product Detail - Desktop */
+@media screen and (min-width: 1018px) {
+  .product-features-container {
+    width: 75%;
+    display: flex;
+    justify-content: center;
+  }
+  .product-features-container .product-features {
+    width: 55%;
+    margin: 0 auto;
+    padding-right: 50px;
+  }
+  .product-features-container .product-features h2 {
+    margin-top: 0;
+  }
+  .product-features-container .in-the-box {
+    margin: 0 auto;
+    width: 45%;
+    padding-left: 50px;
+  }
+  .product-features-container .in-the-box h2 {
+    margin-top: 0;
+  }
+  .gallery {
+    width: 75%;
+    margin: 50px auto;
+  }
+  .product-suggestions {
+    width: 75%;
+    margin: 50px auto;
   }
 }
 

@@ -24,19 +24,27 @@
         }
     }
 
-    .in-the-box {
-        display: flex;
-        align-items: flex-start;
+    .product-features-container {
+        .in-the-box {
+            display: flex;
+            align-items: flex-start;
 
-        h2 {
-            margin: 0;
-            width: 50%;
-        }
+            h2 {
+                margin: 0;
+                width: 50%;
+            }
 
-        ul {
-            width: 50%;
+            ul {
+                width: 50%;
+            }
         }
     }
+
+
+}
+
+/* Common for tablet and desktop */
+@media screen and (min-width: 578px) {
 
     .gallery {
         width: 90%;
@@ -108,5 +116,4 @@
         }
 
     }
-
 }
