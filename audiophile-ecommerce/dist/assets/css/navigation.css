@@ -64,4 +64,15 @@
   color: rgba(255, 136, 0, 0.5);
 }
 
+@media screen and (min-width: 578px) {
+  .mobile-nav-modal .categories-section .categories-card-container {
+    flex-direction: row;
+  }
+}
+@media screen and (min-width: 1018px) {
+  .mobile-nav-modal {
+    visibility: hidden;
+  }
+}
+
 /*# sourceMappingURL=navigation.css.map */
