@@ -161,6 +161,12 @@
   font-size: 18px;
   font-weight: 700;
 }
+.checkout .checkout-summary .price-details .price-row:last-child {
+  margin-top: 20px;
+}
+.checkout .checkout-summary .price-details .price-row:last-child .price {
+  color: #d87d4a;
+}
 .checkout .checkout-summary .button-container {
   width: 90%;
   margin: 40px auto;
@@ -246,7 +252,7 @@
   .checkout {
     display: flex;
     flex-direction: row;
-    width: 80%;
+    width: 75%;
     margin: 0 auto;
   }
   .checkout .checkout-form {

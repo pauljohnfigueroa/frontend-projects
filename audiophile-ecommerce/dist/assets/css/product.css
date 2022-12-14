@@ -288,6 +288,9 @@ header .header-container {
 }
 /* Product Detail - Desktop */
 @media screen and (min-width: 1018px) {
+  .go-back-link {
+    width: 75%;
+  }
   .product-features-container {
     width: 75%;
     display: flex;

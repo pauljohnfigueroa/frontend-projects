@@ -571,7 +571,7 @@ footer .footer-container .footer-inner .footer-social-icons svg:hover path {
 }
 @media screen and (min-width: 1018px) {
   header .header-container {
-    width: 90%;
+    width: 75%;
     padding: 35px 0;
   }
   header .header-container .hamburger-icon {
@@ -605,7 +605,7 @@ footer .footer-container .footer-inner .footer-social-icons svg:hover path {
   .hero .hero-message {
     width: 40%;
     margin-top: 15%;
-    margin-left: 5%;
+    margin-left: 12.5%;
   }
   .hero .hero-message .hero-message-container {
     text-align: left;
@@ -629,7 +629,7 @@ footer .footer-container .footer-inner .footer-social-icons svg:hover path {
     margin: 0;
   }
   .categories-section {
-    width: 75vw;
+    width: 75%;
     margin: auto;
   }
   .categories-section .categories-card-container {

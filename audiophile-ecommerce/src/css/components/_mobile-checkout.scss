@@ -179,6 +179,14 @@
                 font-size: 18px;
                 font-weight: 700;
             }
+
+            .price-row:last-child {
+                margin-top: 20px;
+
+                .price {
+                    color: #d87d4a;
+                }
+            }
         }
 
         .button-container {
