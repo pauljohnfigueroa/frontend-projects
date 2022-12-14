@@ -7,13 +7,18 @@
     visibility: visible;
 
     .checkout-thank-you {
-        border-radius: 8px;
+        position: absolute;
+        top: 50px;
+        left: 5%;
         width: 90%;
-        margin: 20px auto;
+        border-radius: 8px;
         background-color: azure;
+        padding: 30px 0;
 
         .circle {
             background-color: #d87d4a;
+            width: 80%;
+            margin: 0 10%;
             width: 64px;
             height: 64px;
             border-radius: 50%;
@@ -26,9 +31,23 @@
             color: white;
         }
 
-        .product-card {
+        .heading {
+            font-size: 24px;
+            font-weight: 700;
+            line-height: 28px;
+            width: 80%;
+            margin: 20px auto;
+        }
 
-            width: 90%;
+        .sub-text {
+            font-size: 15px;
+            color: rgba(0, 0, 0, .5);
+            width: 80%;
+            margin: 20px auto;
+        }
+
+        .product-card {
+            width: 80%;
             margin: auto;
             background-color: #F1F1F1;
             border-radius: 8px 8px 0 0;
@@ -93,28 +112,30 @@
                         }
                     }
                 }
+
+                hr {
+                    width: 80%;
+                    margin: 0 auto;
+                    color: #e7e7e7;
+                }
+
+                .other-items {
+                    font-size: 12px;
+                    font-weight: 700;
+                    color: rgba(0, 0, 0, .5);
+                    width: 80%;
+                    margin: 10px auto 20px auto;
+                    background-color: #F1F1F1;
+                    text-align: center;
+                }
             }
 
-            hr {
-                width: 80%;
-                margin: 0 auto;
-                color: #e7e7e7;
-            }
 
-            .other-items {
-                font-size: 12px;
-                font-weight: 700;
-                color: rgba(0, 0, 0, .5);
-                width: 80%;
-                margin: 10px auto 20px auto;
-                background-color: #F1F1F1;
-                text-align: center;
-            }
 
             .total {
                 background-color: #000;
                 border-radius: 0 0 8px 8px;
-                padding: 10px;
+                padding: 5px;
 
                 .label {
                     width: 80%;
@@ -131,5 +152,22 @@
                 }
             }
         }
+
+        .button-container {
+            width: 80%;
+            margin: 20px auto 0 auto;
+
+            button {
+                background-color: #d87d4a;
+                border: none;
+                font-size: 13px;
+                font-size: 700;
+                text-transform: uppercase;
+                color: white;
+                width: 100%;
+                min-height: 48px;
+            }
+        }
+
     }
 }
