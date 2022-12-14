@@ -1,4 +1,5 @@
-@media screen and (min-width: 578px) and (max-width: 1017px) {
+/* Checkout - Tablet */
+@media screen and (min-width: 578px) {
 
     .checkout {
 
@@ -45,7 +46,49 @@
                         }
                     }
                 }
+
+                .payment-details {
+                    display: flex;
+                    flex-wrap: wrap;
+
+                    .text-input {
+                        width: 49%;
+                    }
+
+                    .radio-group {
+                        width: 49%;
+
+                        .radio-item:first-child {
+                            margin-top: 0;
+                        }
+                    }
+
+                    div:nth-of-type(odd) {
+                        margin-right: 1%;
+                    }
+
+                    div:nth-of-type(even) {
+                        margin-left: 1%;
+                    }
+                }
             }
+        }
+    }
+}
+
+@media screen and (max-width: 1017px) {
+    .checkout {
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        margin: 0 auto;
+
+        .checkout-form {
+            width: 100%;
+        }
+
+        .checkout-summary {
+            width: 100%;
         }
     }
 }
