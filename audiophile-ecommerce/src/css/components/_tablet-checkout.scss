@@ -1,0 +1,51 @@
+@media screen and (min-width: 578px) and (max-width: 1017px) {
+
+    .checkout {
+
+        .checkout-form {
+
+            form {
+
+                .billing-details {
+                    display: flex;
+                    flex-wrap: wrap;
+
+                    .text-input {
+                        width: 49%;
+
+                        &:nth-of-type(even) {
+                            margin-left: 1%;
+                        }
+
+                        &:nth-of-type(odd) {
+                            margin-right: 1%;
+                        }
+                    }
+                }
+
+                .shipping-info {
+                    .address {
+                        width: 100%;
+                    }
+
+                    .address-details {
+                        display: flex;
+                        flex-wrap: wrap;
+
+                        .text-input {
+                            width: 49%;
+
+                            &:nth-of-type(even) {
+                                margin-left: 1%;
+                            }
+
+                            &:nth-of-type(odd) {
+                                margin-right: 1%;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
