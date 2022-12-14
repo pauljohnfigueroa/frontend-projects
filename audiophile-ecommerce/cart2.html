@@ -8,12 +8,12 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./dist/assets/images/favicon-32x32.png">
   <link rel="stylesheet" href="./dist/assets/css/main.css">
   <link rel="stylesheet" href="./dist/assets/css/categories.css">
-  <link rel="stylesheet" href="./dist/assets/css/product.css">
   <link rel="stylesheet" href="./dist/assets/css/cart.css">
   <title>Paul Figueroa</title>
 </head>
 
 <body>
+
   <!-- Header -->
   <header>
     <div class="header-container">
@@ -36,160 +36,69 @@
       </div>
     </div>
   </header>
-  <!-- Link -->
-  <section class="go-back-link">
-    <a href="#">Go Back</a>
+
+  <!-- Category Title -->
+  <section class="category-heading-container">
+    <h2 class="heading">Headphones</h2>
   </section>
 
   <!-- Product Card -->
   <section class="product-section">
-    <div class="product-card">
 
+    <div class="product-card">
       <div class="product-card-header">
         <img srcset="./dist/assets/images/product-xx99-mark-two-headphones/desktop/image-category-page-preview.jpg 1080w,
         ./dist/assets/images/product-xx99-mark-two-headphones/mobile/image-category-page-preview-2.png 491w"
           src="./dist/assets/images/product-xx99-mark-two-headphones/desktop/image-category-page-preview.jpg" alt="">
       </div>
-
       <div class="product-card-description-container">
-
         <div class="product-card-description">
           <p class="sub-heading">NEW PRODUCT</p>
           <h2 class="heading">XX99 Mark II Headphones</h2>
           <p class="sub-text">The new XX99 Mark II headphones is the pinnacle of pristine audio. It redefines your
             premium
             headphone experience by reproducing the balanced depth and precision of studio-quality sound.</p>
+          <button type="button" class="button">See Product</button>
         </div>
-
-        <div class="product-form">
-          <p class="price">$ 1,200</p>
-          <form action="#">
-            <div class="quantity-nav">
-              <div class="quantity-button quantity-down">-</div>
-            </div>
-            <input type="number" min="0" value="0" class="quantity" />
-            <div class="quantity-nav">
-              <div class="quantity-button quantity-up">+</div>
-            </div>
-
-            <button type="button" class="form-button">Add to Cart</button>
-          </form>
-        </div>
-
       </div>
     </div>
   </section>
 
-  <!-- Product - Features -->
-  <section class="product-features-container">
-    <div class="product-features">
-      <h2>Features</h2>
-      <p>Featuring a genuine leather head strap and premium earcups, these headphones deliver superior comfort for those
-        who like to enjoy endless listening. It includes intuitive controls designed for any situation. Whether you’re
-        taking a business call or just in your own personal space, the auto on/off and pause features ensure that you’ll
-        never miss a beat.</p>
-      <p>The advanced Active Noise Cancellation with built-in equalizer allow you to experience your audio world on your
-        terms. It lets you enjoy your audio in peace, but quickly interact with your surroundings when you need to.
-        Combined with Bluetooth 5. 0 compliant connectivity and 17 hour battery life, the XX99 Mark II headphones gives
-        you superior sound, cutting-edge technology, and a modern design aesthetic.</p>
-    </div>
-
-    <!-- Product - In the box -->
-    <div class="in-the-box">
-      <h2>In the box</h2>
-      <ul>
-        <li>
-          <p class="quantity">1x</p>
-          <p class="description">Headphone Unit</p>
-        </li>
-        <li>
-          <p class="quantity">2x</p>
-          <p class="description">Replacement Earcups</p>
-        </li>
-        <li>
-          <p class="quantity">1x</p>
-          <p class="description">User Manual</p>
-        </li>
-        <li>
-          <p class="quantity">1x</p>
-          <p class="description">3.5mm 5m Audio Cable</p>
-        </li>
-        </p>
-        </li>
-        <li>
-          <p class="quantity">1x</p>
-          <p class="description">Travel Bag</p>
-        </li>
-      </ul>
-    </div>
-  </section>
-
-  <!-- Product - Gallery -->
-  <section class="gallery">
-    <div class="vertical-group">
-      <div class="gallery-card-vert">
-        <img srcset="./dist/assets/images/product-xx99-mark-two-headphones/mobile/image-gallery-1.jpg 654w,
-      ./dist/assets/images/product-xx99-mark-two-headphones/tablet/image-gallery-1.jpg 831w,
-      ./dist/assets/images/product-xx99-mark-two-headphones/desktop/image-gallery-1.jpg 445w"
-          src="./dist/assets/images/product-xx99-mark-two-headphones/desktop/image-gallery-1.jpg" alt="Gallery photo">
+  <!-- Product Card -->
+  <section class="product-section">
+    <div class="product-card product-card-reversed">
+      <div class="product-card-header">
+        <img srcset="./dist/assets/images/product-xx99-mark-one-headphones/mobile/image-category-page-preview-2.png 520w,
+        ./dist/assets/images/product-xx99-mark-one-headphones/desktop/image-category-page-preview.jpg 1080w"
+          src="./dist/assets/images/product-xx99-mark-one-headphones/mobile/image-category-page-preview-2.png" alt="">
       </div>
-      <div class="gallery-card-vert">
-        <img srcset="./dist/assets/images/product-xx99-mark-two-headphones/mobile/image-gallery-2.jpg 654w,
-      ./dist/assets/images/product-xx99-mark-two-headphones/tablet/image-gallery-2.jpg 831w,
-      ./dist/assets/images/product-xx99-mark-two-headphones/desktop/image-gallery-2.jpg 445w"
-          src="./dist/assets/images/product-xx99-mark-two-headphones/desktop/image-gallery-2.jpg" alt="Gallery photo">
-      </div>
-    </div>
-    <div class="horizontal-group">
-      <div class="gallery-card-hor">
-        <img srcset="./dist/assets/images/product-xx99-mark-two-headphones/mobile/image-gallery-3.jpg 491w,
-      ./dist/assets/images/product-xx99-mark-two-headphones/tablet/image-gallery-3.jpg 1185w,
-      ./dist/assets/images/product-xx99-mark-two-headphones/desktop/image-gallery-3.jpg 1270w"
-          src="./dist/assets/images/product-xx99-mark-two-headphones/desktop/image-gallery-3.jpg" alt="Gallery photo">
+      <div class="product-card-description-container">
+        <div class="product-card-description">
+          <h2 class="heading">XX99 Mark I Headphones</h2>
+          <p class="sub-text">As the gold standard for headphones, the classic XX99 Mark I offers detailed and accurate
+            audio reproduction for audiophiles, mixing engineers, and music aficionados alike in studios and on the go.
+          </p>
+          <button type="button" class="button">See Product</button>
+        </div>
       </div>
     </div>
   </section>
 
-  <!-- Products - Suggestion -->
-  <section class="product-suggestions">
-    <h2 class="heading">You may also like</h2>
-
-    <div class="product-suggestions-cards">
-      <div class="suggestion-card">
-        <div class="suggestion-card-header">
-          <div class="image-container">
-            <img srcset="./dist/assets/images/product-xx99-mark-one-headphones/mobile/image-removebg-preview.png 293w,
-        ./dist/assets/images/product-xx99-mark-one-headphones/tablet/image-removebg-preview.png 594w"
-              src="./dist/assets/images/product-xx99-mark-one-headphones/mobile/image-removebg-preview.png" alt="">
-          </div>
-        </div>
-        <h2 class="title">XX99 MARK I</h2>
-        <div class="suggestion-link">
-          <a href="#">See Product</a>
-        </div>
+  <!-- Product Card -->
+  <section class="product-section">
+    <div class="product-card">
+      <div class="product-card-header">
+        <img srcset="./dist/assets/images/product-xx59-headphones/mobile/image-category-page-preview-2.png 649w,
+        ./dist/assets/images/product-xx99-mark-one-headphones/desktop/image-category-page-preview.jpg 1080w"
+          src="./dist/assets/images/product-xx59-headphones/mobile/image-category-page-preview-2.png" alt="">
       </div>
-      <div class="suggestion-card">
-        <div class="suggestion-card-header">
-          <div class="image-container">
-            <img srcset="./dist/assets/images/product-xx59-headphones/mobile/image-removebg-preview.png 293w,
-        ./dist/assets/images/product-xx59-headphones/tablet/image-removebg-preview.png 594w" alt="">
-          </div>
-        </div>
-        <h2 class="title">XX59</h2>
-        <div class="suggestion-link">
-          <a href="#">See Product</a>
-        </div>
-      </div>
-      <div class="suggestion-card">
-        <div class="suggestion-card-header">
-          <div class="image-container">
-            <img srcset="./dist/assets/images/product-zx9-speaker/mobile/image-removebg-preview.png 144w,
-        ./dist/assets/images/product-zx9-speaker/tablet/image-removebg-preview.png 573w" alt="">
-          </div>
-        </div>
-        <h2 class="title">ZX9 SPEAKER</h2>
-        <div class="suggestion-link">
-          <a href="#">See Product</a>
+      <div class="product-card-description-container">
+        <div class="product-card-description">
+          <h2 class="heading">XX59 Headphones</h2>
+          <p class="sub-text">Enjoy your audio almost anywhere and customize it to your specific tastes with the XX59
+            headphones. The stylish yet durable versatile wireless headset is a brilliant companion at home or on the
+            move.</p>
+          <button type="button" class="button">See Product</button>
         </div>
       </div>
     </div>
@@ -239,7 +148,6 @@
         make Audiophile the best place to buy your portable audio equipment.</p>
     </div>
   </section>
-
 
   <!-- Cart -->
   <section class="cart-modal">
@@ -351,7 +259,8 @@
       <p class="footer-subtexts">Audiophile is an all in one stop to fulfill your audio needs. We're a small team of
         music
         lovers and sound
-        specialists who are devoted to helping you get the most out of personal audio. Come and visit our demo facility
+        specialists who are devoted to helping you get the most out of personal audio. Come and visit our demo
+        facility
         -
         we’re open 7 days a week.</p>
 
@@ -384,7 +293,6 @@
         </div>
       </div>
     </div>
-
   </footer>
 
 </body>

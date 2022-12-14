@@ -17,12 +17,14 @@
 .cart-modal .cart .heading-container {
   display: flex;
   align-items: center;
+  justify-content: space-between;
   width: 90%;
-  margin: 0 auto;
+  margin: 20px auto;
 }
 .cart-modal .cart .heading-container .heading {
-  width: 70%;
-  margin: 30px auto;
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 1.2px;
 }
 .cart-modal .cart .heading-container a {
   color: rgba(0, 0, 0, 0.5);
