@@ -109,9 +109,6 @@ header {
 }
 /* Categories - Desktop */
 @media screen and (min-width: 1018px) {
-  .category-heading-container {
-    height: 20%;
-  }
   .product-section {
     width: 84%;
     margin: auto;
