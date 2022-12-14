@@ -144,7 +144,7 @@
   min-height: 48px;
 }
 
-@media screen and (min-width: 578px) and (max-width: 1017px) {
+@media screen and (min-width: 578px) {
   .checkout-modal .checkout-thank-you .heading {
     font-size: 38px;
     letter-spacing: 1.15px;
@@ -163,6 +163,12 @@
   }
   .checkout-modal .checkout-thank-you .button-container {
     margin: 40px auto 0 auto;
+  }
+}
+@media screen and (min-width: 1018px) {
+  .checkout-modal .checkout-thank-you {
+    left: 25%;
+    width: 50%;
   }
 }
 
