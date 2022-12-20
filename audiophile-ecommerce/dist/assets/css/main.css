@@ -28,6 +28,11 @@ ul {
   letter-spacing: 1px;
 }
 
+.buttons-outer-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 .button-container {
   width: 90%;
   margin: 40px auto;

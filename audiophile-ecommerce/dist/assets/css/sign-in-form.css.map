@@ -1,1 +1,1 @@
-{"version":3,"sourceRoot":"","sources":["../../../src/css/components/_mobile-signin-form.scss"],"names":[],"mappings":"AAAA;EACI;EACA;EACA;EACA;EACA;;AAGA;EACI;EACA;;AAGJ;EACI","file":"sign-in-form.css"}
+{"version":3,"sourceRoot":"","sources":["../../../src/css/components/_mobile-signin-form.scss","../../../src/css/components/_desktop-signin-form.scss"],"names":[],"mappings":"AAAA;EACI;EACA;EACA;EACA;EACA;;AAGA;EACI;EACA;;AAGJ;EACI;;;ACdR;EACI;IACI;IACA;IACA;;EAGA;IACI;IACA;IACA;;EAGJ;IACI;IACA;;EAIR;IACI","file":"sign-in-form.css"}
