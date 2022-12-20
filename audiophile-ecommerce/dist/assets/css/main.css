@@ -19,6 +19,7 @@ ul {
 
 header {
   position: absolute;
+  top: 0;
   background-color: #131313;
   color: #fff;
   width: 100%;
@@ -49,6 +50,9 @@ header .header-container .nav-desktop {
 header .header-container .cart-icon {
   width: 20%;
   text-align: right;
+}
+header .header-container .cart-icon:hover {
+  cursor: pointer;
 }
 
 .hero {

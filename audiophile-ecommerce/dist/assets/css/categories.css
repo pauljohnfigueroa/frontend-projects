@@ -1,16 +1,11 @@
 /* Categories - Mobile */
-header {
-  position: unset;
-  background-color: #000;
-}
-
 .category-heading-container {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #000;
-  height: 15vh;
+  background-color: #131313;
   margin-bottom: 80px;
+  padding: 150px 0 50px 0;
 }
 .category-heading-container .heading {
   color: #FFF;

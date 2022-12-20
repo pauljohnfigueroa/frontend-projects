@@ -2,6 +2,7 @@
 
 header {
     position: absolute;
+    top: 0;
     background-color: #131313;
     color: #fff;
     width: 100%;
@@ -35,6 +36,10 @@ header {
         .cart-icon {
             width: 20%;
             text-align: right;
+
+            &:hover {
+                cursor: pointer;
+            }
         }
     }
 }
