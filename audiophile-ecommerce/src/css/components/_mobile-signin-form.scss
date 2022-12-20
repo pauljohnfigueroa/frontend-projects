@@ -1,4 +1,17 @@
-.sign-in-container {
-    border: 1px dashed red;
+.forms-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     margin-top: 150px;
+
+    // see general.scss for more 
+    .sign-in-container {
+        width: 90%;
+        margin-bottom: 3rem;
+    }
+
+    .sign-up-container {
+        width: 90%;
+    }
 }

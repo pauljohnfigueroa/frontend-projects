@@ -38,39 +38,56 @@
       </div>
     </div>
   </header>
+  <section class="forms-container">
+    <div class="sign-in-container">
+      <h2 class="heading">Already have an account?</h2>
+      <p class="sub-heading">Sign up with your email and password.</p>
+      <form>
+        <div class="form-row">
+          <label for="email" class="form-label">Email</label>
+          <input type="email" class="form-input" required name="email" />
+        </div>
+        <div class="form-row">
+          <label for="password" class="form-label">Password</label>
+          <input type="password" class="form-input" required name="password" />
+        </div>
+        <div class="buttons-container">
+          <div class="button-container">
+            <button type="submit" class="form-button">Sign In</button>
+          </div>
+          <div class="button-container">
+            <button type="submit" class="form-button">Sign In withGoogle</button>
+          </div>
+        </div>
+      </form>
+    </div>
 
-  <div class="sign-in-container">
-    <h2>Already have an account?</h2>
-    <p>Sign up with your email and password.</p>
-    <form>
-      <label for="email">Email</label>
-      <input type="email" required name="email" />
-      <label for="password">Password</label>
-      <input type="password" required name="password" />
-      <div class="buttons-container">
-        <button type="submit">Sign In</button>
-        <button type="button">Sign In withGoogle</button>
-      </div>
-    </form>
-  </div>
-
-  <div class="sign-up-container">
-    <h2>Don't have an account?</h2>
-    <span>Sign Up with your email and password.</span>
-    <form action="">
-      <label for="displayName">Display Name</label>
-      <input type="text" id="" required name="displayName" />
-
-      <label for="email">Email</label>
-      <input type="email" required name="email" />
-      <label for="password">Password</label>
-      <input type="password" required name="password" />
-      <label for="confirmPassword">Confirm Password</label>
-      <input type="password" required name="confirmPassword" />
-      <button type="submit">Sign Up</button>
-    </form>
-  </div>
-
+    <div class="sign-up-container">
+      <h2>Don't have an account?</h2>
+      <span class="sub-heading">Sign Up with your email and password.</span>
+      <form action="">
+        <div class="form-row">
+          <label for="displayName" class="form-label">Display Name</label>
+          <input type="text" class="form-input" required name="displayName" />
+        </div>
+        <div class="form-row">
+          <label for="email" class="form-label">Email</label>
+          <input type="email" class="form-input" required name="email" />
+        </div>
+        <div class="form-row">
+          <label for="password" class="form-label">Password</label>
+          <input type="password" class="form-input" required name="password" />
+        </div>
+        <div class="form-row">
+          <label for="confirmPassword" class="form-label">Confirm Password</label>
+          <input type="password" class="form-input" required name="confirmPassword" />
+        </div>
+        <div class="button-container">
+          <button type="submit" class="form-button">Sign Up</button>
+        </div>
+      </form>
+    </div>
+  </section>
 </body>
 
 </html>
