@@ -28,6 +28,18 @@ ul {
   letter-spacing: 1px;
 }
 
+a,
+a:visited {
+  color: white;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #d87d4a;
+  text-decoration: none;
+}
+
 .buttons-outer-container {
   display: flex;
   flex-wrap: wrap;
